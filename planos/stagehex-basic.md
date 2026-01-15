@@ -26,11 +26,11 @@ Plano voltado para produção real, com exportação MA2 e biblioteca cloud esse
 
 | Relatório | Status |
 |-----------|--------|
-| Truss | ⏳ Em breve |
-| Equipamentos | ⏳ Em breve |
-| Plataforma | ⏳ Em breve |
-| Escadas | ⏳ Em breve |
-| Guarda-corpo | ⏳ Em breve |
+| Truss | ❌ |
+| Equipamentos | ❌ |
+| Plataforma | ❌ |
+| Escadas | ❌ |
+| Guarda-corpo | ❌ |
 
 ***
 
