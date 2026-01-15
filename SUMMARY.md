@@ -13,6 +13,7 @@
 
 ## Visão Geral
 
+* [Plugin SketchUp](visao-geral/plugin-sketchup.md)
 * [Espaços de Trabalho](visao-geral/espacos-de-trabalho/README.md)
   * [Ferramentas](visao-geral/espacos-de-trabalho/ferramentas.md)
 
