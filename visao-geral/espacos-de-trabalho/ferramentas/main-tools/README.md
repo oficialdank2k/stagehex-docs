@@ -2,7 +2,7 @@
 
 Ferramentas essenciais para interface, manipulação de objetos, organização e visualização no SketchUp.
 
-<figure><img src="../../../.gitbook/assets/sketchup/toolbar/1-toolbar-main.png" alt="Main Tools"><figcaption><p>SH - Main Tools</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/sketchup/toolbar/1-toolbar-main.png" alt="Main Tools"><figcaption><p>SH - Main Tools</p></figcaption></figure>
 
 ***
 
