@@ -7,41 +7,51 @@ Este projeto usa **GitBook** para documentacao do software StageHex.
 ```
 StageHex Docs/
 ├── .gitbook/
-│   ├── assets/           # Imagens organizadas por secao
-│   │   ├── instalacao/   # Imagens de instalacao
-│   │   └── atualizacao/  # Imagens de atualizacao
+│   ├── assets/           # Imagens e GIFs organizados por secao
+│   │   ├── gif/          # GIFs de demonstracao
+│   │   │   ├── main-tools/
+│   │   │   └── event-tools/
+│   │   ├── instalacao/
+│   │   └── sketchup/
 │   └── includes/         # Snippets reutilizaveis
+│
+├── .githooks/            # Git hooks (pre-commit para otimizar GIFs)
+├── .bak/                 # Arquivos de backup/templates
+├── scripts/              # Scripts de automacao (npm)
 │
 ├── primeiros-passos/     # Secao: Primeiros Passos
 │   ├── README.md
 │   ├── instalacao/
-│   │   └── README.md
 │   ├── autorizando/
-│   │   └── README.md
 │   ├── atualizacao/
-│   │   └── README.md
 │   └── requisitos-do-sistema.md
 │
-├── planos/               # Secao: Planos (logo apos Primeiros Passos)
-│   ├── README.md               # Comparativo de planos
+├── planos/               # Secao: Planos
+│   ├── README.md
 │   ├── stagehex-trial.md
 │   ├── stagehex-basic.md
 │   └── stagehex-pro.md
 │
 ├── visao-geral/          # Secao: Visao Geral
+│   ├── plugin-sketchup.md
 │   └── espacos-de-trabalho/
 │       ├── README.md
-│       └── ferramentas.md
+│       └── ferramentas/
+│           ├── README.md
+│           ├── main-tools/      # 9 ferramentas documentadas
+│           ├── event-tools/     # 2 ferramentas documentadas
+│           ├── rigging-tools.md
+│           ├── lighting-tools.md
+│           └── video-audio-tools.md
 │
-├── suporta-importar-exportar/  # Secao: Importar/Exportar
+├── suporta-importar-exportar/
 │   ├── formatos-de-importacao.md
 │   └── formatos-de-exportacao.md
 │
-├── notas-de-lancamento/  # Secao: Release Notes
-│   └── versao-X.X.X.md
-│
-├── README.md             # Pagina inicial da documentacao
-└── SUMMARY.md            # Indice de navegacao (OBRIGATORIO)
+├── README.md             # Pagina inicial
+├── SUMMARY.md            # Indice de navegacao (OBRIGATORIO)
+├── package.json          # Scripts npm
+└── CLAUDE.md             # Este arquivo
 ```
 
 ## Arquivos Importantes
@@ -51,29 +61,41 @@ StageHex Docs/
 | `SUMMARY.md` | Define a estrutura de navegacao do GitBook. Toda nova pagina DEVE ser adicionada aqui. |
 | `README.md` (raiz) | Pagina inicial da documentacao |
 | `.gitbook/includes/` | Snippets reutilizaveis com sintaxe `{% include %}` |
-| `.gitbook/assets/` | Imagens organizadas por secao (ex: `assets/instalacao/`, `assets/atualizacao/`) |
+| `.gitbook/assets/gif/` | GIFs de demonstracao das ferramentas |
+| `.githooks/pre-commit` | Hook para otimizar GIFs automaticamente |
+| `scripts/optimize-gifs.js` | Script npm para otimizar GIFs manualmente |
+| `.bak/` | Arquivos de backup e templates |
+
+## Scripts NPM
+
+```bash
+npm run optimize:gifs    # Otimiza todos os GIFs (256 cores, lossy=20, loop infinito)
+npm run prepare          # Configura git hooks
+```
 
 ## Convencoes
 
 ### Nomenclatura de Arquivos
 - Usar **kebab-case** para nomes de arquivos e pastas (ex: `requisitos-do-sistema.md`)
 - README.md em cada pasta representa a pagina principal daquela secao
-- Imagens devem seguir padrao: `N-descricao-da-imagem.png` (ex: `1-stagehex-cloud-download.png`)
+- Imagens devem seguir padrao: `N-descricao-da-imagem.png`
+- GIFs devem seguir padrao: `nome-ferramenta.gif`
 
 ### Estrutura de Paginas
 - Cada pagina .md deve comecar com titulo `# Titulo`
 - Usar hierarquia de headings: `#` > `##` > `###`
-- Imagens referenciadas com caminho relativo: `../../.gitbook/assets/secao/imagem.png`
+- Imagens referenciadas com caminho relativo: `../../../../.gitbook/assets/gif/main-tools/nome.gif`
 
 ### Adicionar Nova Pagina
 1. Criar arquivo `.md` na pasta apropriada
 2. Adicionar entrada no `SUMMARY.md` seguindo a hierarquia existente
 3. Usar indentacao com 2 espacos para sub-itens no SUMMARY
 
-### Adicionar Nova Secao
-1. Criar pasta com nome em kebab-case
-2. Criar `README.md` dentro da pasta (pagina principal)
-3. Adicionar no `SUMMARY.md` como grupo (usar `## Nome da Secao`)
+### Adicionar Nova Ferramenta
+1. Adicionar GIF em `.gitbook/assets/gif/<categoria>/`
+2. Criar pagina .md em `visao-geral/espacos-de-trabalho/ferramentas/<categoria>/`
+3. Atualizar SUMMARY.md
+4. GIFs sao otimizados automaticamente no commit
 
 ## Sintaxe GitBook Especial
 
@@ -140,6 +162,25 @@ Conteudo Windows
 Conteudo Mac
 {% endtab %}
 {% endtabs %}
+```
+
+### Figuras com GIF
+
+```markdown
+<figure><img src="../../../../.gitbook/assets/gif/main-tools/nome.gif" alt="Descricao"><figcaption><p>Legenda</p></figcaption></figure>
+```
+
+## Otimizacao de GIFs
+
+GIFs sao otimizados automaticamente via pre-commit hook:
+- **256 cores** (preserva qualidade)
+- **lossy=20** (compressao suave)
+- **loop infinito** (loopcount=0)
+- Reducao media: ~50%
+
+Para otimizar manualmente:
+```bash
+npm run optimize:gifs
 ```
 
 ## Idioma

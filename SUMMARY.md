@@ -22,7 +22,13 @@
       * [Rotacionar Objetos](visao-geral/espacos-de-trabalho/ferramentas/main-tools/rotacionar-objetos.md)
       * [Substituir Componentes](visao-geral/espacos-de-trabalho/ferramentas/main-tools/substituir-componentes.md)
       * [Selecionar Similares](visao-geral/espacos-de-trabalho/ferramentas/main-tools/selecionar-similares.md)
-    * [Event Tools](visao-geral/espacos-de-trabalho/ferramentas/event-tools.md)
+      * [Distribuir Objetos](visao-geral/espacos-de-trabalho/ferramentas/main-tools/distribuir-objetos.md)
+      * [Explodir Grupos](visao-geral/espacos-de-trabalho/ferramentas/main-tools/explodir-grupos.md)
+      * [Definir Eixo](visao-geral/espacos-de-trabalho/ferramentas/main-tools/definir-eixo.md)
+      * [Mover para Origem](visao-geral/espacos-de-trabalho/ferramentas/main-tools/mover-para-origem.md)
+    * [Event Tools](visao-geral/espacos-de-trabalho/ferramentas/event-tools/README.md)
+      * [Posicionar Deck](visao-geral/espacos-de-trabalho/ferramentas/event-tools/posicionar-deck.md)
+      * [Desenhar Deck](visao-geral/espacos-de-trabalho/ferramentas/event-tools/desenhar-deck.md)
     * [Rigging Tools](visao-geral/espacos-de-trabalho/ferramentas/rigging-tools.md)
     * [Lighting Tools](visao-geral/espacos-de-trabalho/ferramentas/lighting-tools.md)
     * [Video/Audio Tools](visao-geral/espacos-de-trabalho/ferramentas/video-audio-tools.md)
@@ -32,6 +38,3 @@
 * [Formatos de Importação](suporta-importar-exportar/formatos-de-importacao.md)
 * [Formatos de Exportação](suporta-importar-exportar/formatos-de-exportacao.md)
 
-## Notas de Lançamento
-
-* [Versão 1.0.0](notas-de-lancamento/versao-1.0.0.md)

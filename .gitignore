@@ -26,6 +26,7 @@ Desktop.ini
 *.tmp
 *.temp
 *.bak
+.bak/
 
 # Cache
 .cache/
