@@ -7,19 +7,27 @@ Este projeto usa **GitBook** para documentacao do software StageHex.
 ```
 StageHex Docs/
 ├── .gitbook/
-│   ├── assets/           # Imagens legadas (descontinuado)
-│   ├── Images/           # Imagens atuais do projeto
-│   └── includes/         # Snippets reutilizaveis (ex: avisos, notas)
+│   ├── assets/           # Imagens organizadas por secao
+│   │   ├── instalacao/   # Imagens de instalacao
+│   │   └── atualizacao/  # Imagens de atualizacao
+│   └── includes/         # Snippets reutilizaveis
 │
 ├── primeiros-passos/     # Secao: Primeiros Passos
-│   ├── README.md         # Pagina principal da secao
+│   ├── README.md
 │   ├── instalacao/
-│   │   ├── README.md     # Guia de instalacao
-│   │   └── atualizacao.md
+│   │   └── README.md
+│   ├── autorizando/
+│   │   └── README.md
+│   ├── atualizacao/
+│   │   └── README.md
 │   └── requisitos-do-sistema.md
 │
 ├── visao-geral/          # Secao: Visao Geral
-│   ├── planos.md
+│   ├── planos/
+│   │   ├── README.md           # Comparativo de planos
+│   │   ├── stagehex-trial.md
+│   │   ├── stagehex-basic.md
+│   │   └── stagehex-pro.md
 │   └── espacos-de-trabalho/
 │       ├── README.md
 │       └── ferramentas.md
@@ -42,19 +50,19 @@ StageHex Docs/
 | `SUMMARY.md` | Define a estrutura de navegacao do GitBook. Toda nova pagina DEVE ser adicionada aqui. |
 | `README.md` (raiz) | Pagina inicial da documentacao |
 | `.gitbook/includes/` | Snippets reutilizaveis com sintaxe `{% include %}` |
-| `.gitbook/Images/` | Armazenamento de imagens. Usar caminho relativo `../.gitbook/Images/nome.png` |
+| `.gitbook/assets/` | Imagens organizadas por secao (ex: `assets/instalacao/`, `assets/atualizacao/`) |
 
 ## Convencoes
 
 ### Nomenclatura de Arquivos
 - Usar **kebab-case** para nomes de arquivos e pastas (ex: `requisitos-do-sistema.md`)
 - README.md em cada pasta representa a pagina principal daquela secao
-- Imagens devem seguir padrao: `StageHex-AAAA-MM-DD-HH-MM-SS.png`
+- Imagens devem seguir padrao: `N-descricao-da-imagem.png` (ex: `1-stagehex-cloud-download.png`)
 
 ### Estrutura de Paginas
 - Cada pagina .md deve comecar com titulo `# Titulo`
 - Usar hierarquia de headings: `#` > `##` > `###`
-- Imagens referenciadas com caminho relativo a partir de `.gitbook/Images/`
+- Imagens referenciadas com caminho relativo: `../../.gitbook/assets/secao/imagem.png`
 
 ### Adicionar Nova Pagina
 1. Criar arquivo `.md` na pasta apropriada

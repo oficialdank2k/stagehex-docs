@@ -9,7 +9,10 @@
 
 ## Visão Geral
 
-* [Planos](visao-geral/planos.md)
+* [Planos](visao-geral/planos/README.md)
+  * [StageHex Trial](visao-geral/planos/stagehex-trial.md)
+  * [StageHex Basic](visao-geral/planos/stagehex-basic.md)
+  * [StageHex Pro](visao-geral/planos/stagehex-pro.md)
 * [Espaços de Trabalho](visao-geral/espacos-de-trabalho/README.md)
   * [Ferramentas](visao-geral/espacos-de-trabalho/ferramentas.md)
 
