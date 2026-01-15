@@ -3,7 +3,8 @@
 * [Stagehex Documentação](README.md)
 * [Primeiros Passos](primeiros-passos/README.md)
   * [Instalação](primeiros-passos/instalacao/README.md)
-    * [Atualização](primeiros-passos/instalacao/atualizacao.md)
+  * [Autorizando](primeiros-passos/autorizando/README.md)
+  * [Atualização](primeiros-passos/atualizacao/README.md)
   * [Requisitos do Sistema](primeiros-passos/requisitos-do-sistema.md)
 
 ## Visão Geral
