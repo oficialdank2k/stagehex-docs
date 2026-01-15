@@ -1,0 +1,30 @@
+# GitBook build output
+_book/
+.gitbook-export/
+
+# Node modules (se usar GitBook CLI local)
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*~
+
+# IDE/Editor
+.vscode/
+.idea/
+*.sublime-*
+
+# Arquivos temporarios
+*.tmp
+*.temp
+*.bak
+
+# Cache
+.cache/
