@@ -41,4 +41,3 @@ venv/
 ENV/
 .eggs/
 *.egg-info/
-/scripts

@@ -1,0 +1,26 @@
+{
+  "name": "stagehex-docs",
+  "version": "1.0.0",
+  "description": "StageHex é um plugin profissional para SketchUp voltado ao design técnico de shows, iluminação e estruturas de palco.\\\r Ele integra modelagem 3D, organização técnica e exportação de dados em um único fluxo de trabalho, permitindo a criação de projetos complexos com precisão e consistência.",
+  "main": "index.js",
+  "scripts": {
+    "optimize:gifs": "node scripts/optimize-gifs.js",
+    "prepare": "git config core.hooksPath .githooks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oficialdank2k/stagehex-docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/oficialdank2k/stagehex-docs/issues"
+  },
+  "homepage": "https://github.com/oficialdank2k/stagehex-docs#readme",
+  "devDependencies": {
+    "gifsicle": "^7.0.1",
+    "glob": "^13.0.0"
+  }
+}
