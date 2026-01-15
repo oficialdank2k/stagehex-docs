@@ -49,6 +49,7 @@ Biblioteca de assets organizada por categorias, permitindo inserir componentes d
 
 **Pesquisa**
 * Campo de busca no topo da interface
+* Atalho `Ctrl + F` para focar na pesquisa
 * Pesquisa por nome do asset
 * Resultados em tempo real
 
