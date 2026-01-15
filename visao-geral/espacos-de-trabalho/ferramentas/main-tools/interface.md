@@ -15,7 +15,7 @@ O Gerenciador de Interface é o painel principal do StageHex, acessível atravé
 </thead>
 <tbody>
 <tr>
-<td><strong>Assets</strong></td>
+<td><strong>Biblioteca</strong></td>
 <td>Biblioteca de componentes organizados por categoria</td>
 </tr>
 <tr>
@@ -35,11 +35,11 @@ O Gerenciador de Interface é o painel principal do StageHex, acessível atravé
 
 ***
 
-## Assets
+## Biblioteca
 
-Biblioteca de assets organizada por categorias, permitindo inserir componentes diretamente no SketchUp.
+Biblioteca de componentes organizada por categorias, permitindo inserir diretamente no SketchUp.
 
-<figure><img src="../../../../.gitbook/assets/sketchup/interface/1-interface-assets.png" alt="Assets"><figcaption><p>Biblioteca de Assets</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/sketchup/interface/1-interface-assets.png" alt="Biblioteca"><figcaption><p>Biblioteca de Componentes</p></figcaption></figure>
 
 ### Funcionalidades
 
@@ -50,16 +50,16 @@ Biblioteca de assets organizada por categorias, permitindo inserir componentes d
 **Pesquisa**
 * Campo de busca no topo da interface
 * Atalho `Ctrl + F` para focar na pesquisa
-* Pesquisa por nome do asset
+* Pesquisa por nome do componente
 * Resultados em tempo real
 
-**Inserção de Assets**
+**Inserção de Componentes**
 1. Navegue até a categoria desejada
-2. Clique no asset para selecioná-lo
+2. Clique no componente para selecioná-lo
 3. Clique no modelo para posicionar
 
 {% hint style="info" %}
-Os assets são sincronizados automaticamente da StageHex Cloud conforme seu plano de assinatura.
+Os componentes são sincronizados automaticamente da StageHex Cloud conforme seu plano de assinatura.
 {% endhint %}
 
 ***
@@ -149,7 +149,7 @@ A lista exibe todos os componentes StageHex organizados hierarquicamente:
 
 **Colunas:**
 * **Visibilidade** - Ícones para mostrar/ocultar, detalhar/simplificar, cor/material
-* **Asset / Definição** - Nome do componente
+* **Componente / Definição** - Nome do componente
 * **Instâncias** - Quantidade no modelo
 * **Tipo** - Classificação (Platform, Corner, Line Array, Panel, etc.)
 * **Classe** - Categoria principal

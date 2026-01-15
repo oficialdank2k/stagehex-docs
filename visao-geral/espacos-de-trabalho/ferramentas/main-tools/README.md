@@ -88,7 +88,7 @@ Ferramentas essenciais para interface, manipulação de objetos, organização e
 
 Abre o painel principal de gerenciamento do StageHex, onde você pode:
 
-* Gerenciar assets e bibliotecas
+* Gerenciar biblioteca de componentes
 * Configurar cores do sistema
 * Gerenciar camadas
 * Exportar para MVR e MA2
