@@ -15,7 +15,12 @@
 
 * [Plugin SketchUp](visao-geral/plugin-sketchup.md)
 * [Espaços de Trabalho](visao-geral/espacos-de-trabalho/README.md)
-  * [Ferramentas](visao-geral/espacos-de-trabalho/ferramentas.md)
+  * [Ferramentas](visao-geral/espacos-de-trabalho/ferramentas/README.md)
+    * [Main Tools](visao-geral/espacos-de-trabalho/ferramentas/main-tools.md)
+    * [Event Tools](visao-geral/espacos-de-trabalho/ferramentas/event-tools.md)
+    * [Rigging Tools](visao-geral/espacos-de-trabalho/ferramentas/rigging-tools.md)
+    * [Lighting Tools](visao-geral/espacos-de-trabalho/ferramentas/lighting-tools.md)
+    * [Video/Audio Tools](visao-geral/espacos-de-trabalho/ferramentas/video-audio-tools.md)
 
 ## Suporta Importar / Exportar
 
