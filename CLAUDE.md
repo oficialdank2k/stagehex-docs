@@ -77,8 +77,39 @@ StageHex Docs/
 
 ## Sintaxe GitBook Especial
 
+### Tabelas (OBRIGATORIO usar formato HTML)
+
+Sempre usar o formato HTML para tabelas, com `align="center"` nas colunas de status/icones:
+
+```html
+<table>
+<thead>
+<tr>
+<th>Coluna 1</th>
+<th width="150">Coluna 2</th>
+<th width="150" align="center">Status</th>
+<th>Observacoes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Valor 1</td>
+<td>Valor 2</td>
+<td align="center">✔</td>
+<td>Descricao</td>
+</tr>
+</tbody>
+</table>
+```
+
+**Icones padrao:**
+- `✔` = Disponivel/Suportado
+- `✖` = Nao disponivel/Nao suportado
+- `Planejado` = Em desenvolvimento
+
+### Hints/Alertas
+
 ```markdown
-# Hints/Alertas
 {% hint style="info" %}
 Texto informativo
 {% endhint %}
@@ -90,11 +121,17 @@ Aviso importante
 {% hint style="danger" %}
 Alerta critico
 {% endhint %}
+```
 
-# Includes (snippets reutilizaveis)
+### Includes (snippets reutilizaveis)
+
+```markdown
 {% include ".gitbook/includes/nome-do-snippet.md" %}
+```
 
-# Tabs
+### Tabs
+
+```markdown
 {% tabs %}
 {% tab title="Windows" %}
 Conteudo Windows

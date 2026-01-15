@@ -6,46 +6,129 @@ Plano completo para produção profissional avançada, incluindo rigging, automa
 
 ## StageHex Cloud
 
-| Biblioteca | Disponível |
-|------------|------------|
-| MA2 Library | ✅ |
-| Depence Library | ✅ |
+<table>
+<thead>
+<tr>
+<th>Biblioteca</th>
+<th width="150" align="center">Disponível</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MA2 Library</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td>Depence Library</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
 
 ***
 
 ## Plugin SketchUp
 
-| Exportação | Disponível |
-|------------|------------|
-| Exportação MA2 | ✅ |
-| Exportação MVR | ✅ |
+<table>
+<thead>
+<tr>
+<th>Exportação</th>
+<th width="150" align="center">Disponível</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Exportação MA2</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td>Exportação MVR</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
 
 ***
 
 ## Reports
 
-| Relatório | Status |
-|-----------|--------|
-| Truss | ✅ Em breve |
-| Equipamentos | ✅ Em breve |
-| Plataforma | ✅ Em breve |
-| Escadas | ✅ Em breve |
-| Guarda-corpo | ✅ Em breve |
+<table>
+<thead>
+<tr>
+<th>Relatório</th>
+<th width="150" align="center">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Truss</td>
+<td align="center">Em breve</td>
+</tr>
+<tr>
+<td>Equipamentos</td>
+<td align="center">Em breve</td>
+</tr>
+<tr>
+<td>Plataforma</td>
+<td align="center">Em breve</td>
+</tr>
+<tr>
+<td>Escadas</td>
+<td align="center">Em breve</td>
+</tr>
+<tr>
+<td>Guarda-corpo</td>
+<td align="center">Em breve</td>
+</tr>
+</tbody>
+</table>
 
 ***
 
 ## Ferramentas Disponíveis
 
-| Categoria | Disponível |
-|-----------|------------|
-| **Ferramentas Core** completas | ✅ |
-| **Event Tools** (plataformas, escadas, guarda-corpos) | ✅ |
-| **Rigging Tools** completos (treliça, talhas, andaimes, tubulação) | ✅ |
-| **Lighting Tools** completos (distribuição em treliça e autopatch) | ✅ |
-| **Video / Audio Tools** | ✅ |
-| Distribuição automática de objetos | ✅ |
-| Gerenciador de etiquetas | ✅ |
-| Patch automático | ✅ |
+<table>
+<thead>
+<tr>
+<th>Categoria</th>
+<th width="150" align="center">Disponível</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Ferramentas Core</strong> completas</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td><strong>Event Tools</strong> (plataformas, escadas, guarda-corpos)</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td><strong>Rigging Tools</strong> completos (treliça, talhas, andaimes, tubulação)</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td><strong>Lighting Tools</strong> completos (distribuição em treliça e autopatch)</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td><strong>Video / Audio Tools</strong></td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td>Distribuição automática de objetos</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td>Gerenciador de etiquetas</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td>Patch automático</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
 
 ***
 

@@ -6,29 +6,119 @@ A StageHex oferece três planos pensados para diferentes níveis de uso — desd
 
 ## Comparativo de Planos
 
-| Recurso | StageHex Trial | StageHex Basic | StageHex Pro |
-|---------|----------------|----------------|--------------|
-| **Plugin SketchUp** | ✅ | ✅ | ✅ |
-| **Ferramentas Core** | ✅ Completas | ✅ Essenciais | ✅ Completas |
-| **Event Tools** | ✅ | ✅ | ✅ |
-| **Rigging Tools** | ✅ | ❌ | ✅ |
-| **Lighting Tools** | ✅ Completas | ✅ Básicas | ✅ Completas |
-| **Video / Audio Tools** | ✅ | ✅ | ✅ |
-| **Distribuição Automática** | ✅ | ❌ | ✅ |
-| **Gerenciador de Etiquetas** | ✅ | ❌ | ✅ |
-| **Patch Automático** | ✅ | ❌ | ✅ |
+<table>
+<thead>
+<tr>
+<th>Recurso</th>
+<th width="150" align="center">StageHex Trial</th>
+<th width="150" align="center">StageHex Basic</th>
+<th width="150" align="center">StageHex Pro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Plugin SketchUp</strong></td>
+<td align="center">✔</td>
+<td align="center">✔</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td><strong>Ferramentas Core</strong></td>
+<td align="center">✔ Completas</td>
+<td align="center">✔ Essenciais</td>
+<td align="center">✔ Completas</td>
+</tr>
+<tr>
+<td><strong>Event Tools</strong></td>
+<td align="center">✔</td>
+<td align="center">✔</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td><strong>Rigging Tools</strong></td>
+<td align="center">✔</td>
+<td align="center">✖</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td><strong>Lighting Tools</strong></td>
+<td align="center">✔ Completas</td>
+<td align="center">✔ Básicas</td>
+<td align="center">✔ Completas</td>
+</tr>
+<tr>
+<td><strong>Video / Audio Tools</strong></td>
+<td align="center">✔</td>
+<td align="center">✔</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td><strong>Distribuição Automática</strong></td>
+<td align="center">✔</td>
+<td align="center">✖</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td><strong>Gerenciador de Etiquetas</strong></td>
+<td align="center">✔</td>
+<td align="center">✖</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td><strong>Patch Automático</strong></td>
+<td align="center">✔</td>
+<td align="center">✖</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
 
 ***
 
 ## Bibliotecas e Exportações
 
-| Recurso | StageHex Trial | StageHex Basic | StageHex Pro |
-|---------|----------------|----------------|--------------|
-| **MA2 Library** | ❌ | ✅ | ✅ |
-| **Depence Library** | ❌ | ❌ | ✅ |
-| **Exportação MA2** | ❌ | ✅ | ✅ |
-| **Exportação MVR** | ❌ | ❌ | ✅ |
-| **Reports Técnicos** | ❌ | ⏳ Em breve | ✅ |
+<table>
+<thead>
+<tr>
+<th>Recurso</th>
+<th width="150" align="center">StageHex Trial</th>
+<th width="150" align="center">StageHex Basic</th>
+<th width="150" align="center">StageHex Pro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>MA2 Library</strong></td>
+<td align="center">✖</td>
+<td align="center">✔</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td><strong>Depence Library</strong></td>
+<td align="center">✖</td>
+<td align="center">✖</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td><strong>Exportação MA2</strong></td>
+<td align="center">✖</td>
+<td align="center">✔</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td><strong>Exportação MVR</strong></td>
+<td align="center">✖</td>
+<td align="center">✖</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td><strong>Reports Técnicos</strong></td>
+<td align="center">✖</td>
+<td align="center">✖</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
 
 ***
 

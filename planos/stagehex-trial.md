@@ -6,34 +6,94 @@ Plano gratuito para avaliação completa das ferramentas no SketchUp, sem export
 
 ## StageHex Cloud
 
-| Biblioteca | Disponível |
-|------------|------------|
-| MA2 Library | ❌ |
-| Depence Library | ❌ |
+<table>
+<thead>
+<tr>
+<th>Biblioteca</th>
+<th width="150" align="center">Disponível</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MA2 Library</td>
+<td align="center">✖</td>
+</tr>
+<tr>
+<td>Depence Library</td>
+<td align="center">✖</td>
+</tr>
+</tbody>
+</table>
 
 ***
 
 ## Plugin SketchUp
 
-| Exportação | Disponível |
-|------------|------------|
-| Exportação MA2 | ❌ |
-| Exportação MVR | ❌ |
+<table>
+<thead>
+<tr>
+<th>Exportação</th>
+<th width="150" align="center">Disponível</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Exportação MA2</td>
+<td align="center">✖</td>
+</tr>
+<tr>
+<td>Exportação MVR</td>
+<td align="center">✖</td>
+</tr>
+</tbody>
+</table>
 
 ***
 
 ## Ferramentas Disponíveis
 
-| Categoria | Disponível |
-|-----------|------------|
-| **Ferramentas Core** (interface, mover, rotacionar, organizar, tags, visualização e cores) | ✅ |
-| **Event Tools** (plataformas, escadas, guarda-corpos) | ✅ |
-| **Rigging Tools** (treliça, tubulação, talhas, cintas e andaimes) | ✅ |
-| **Lighting Tools** (fixtures, distribuição, patch completo e modos) | ✅ |
-| **Video / Audio Tools** (painéis LED e áudio) | ✅ |
-| Distribuição automática de objetos | ✅ |
-| Gerenciador de etiquetas | ✅ |
-| Patch automático | ✅ |
+<table>
+<thead>
+<tr>
+<th>Categoria</th>
+<th width="150" align="center">Disponível</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Ferramentas Core</strong> (interface, mover, rotacionar, organizar, tags, visualização e cores)</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td><strong>Event Tools</strong> (plataformas, escadas, guarda-corpos)</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td><strong>Rigging Tools</strong> (treliça, tubulação, talhas, cintas e andaimes)</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td><strong>Lighting Tools</strong> (fixtures, distribuição, patch completo e modos)</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td><strong>Video / Audio Tools</strong> (painéis LED e áudio)</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td>Distribuição automática de objetos</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td>Gerenciador de etiquetas</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td>Patch automático</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
 
 ***
 
