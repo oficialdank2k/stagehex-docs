@@ -43,7 +43,7 @@ Na primeira execução, você verá a tela de **Configuração Inicial**. Seleci
 | **Depence Assets** | Assets para Depence | Somente Pro |
 
 {% hint style="info" %}
-Alguns componentes podem não estar disponíveis dependendo do seu plano. Consulte a página de [Planos](../../visao-geral/planos/README.md) para mais detalhes.
+Alguns componentes podem não estar disponíveis dependendo do seu plano. Consulte a página de [Planos](../../planos/README.md) para mais detalhes.
 {% endhint %}
 
 Clique em **Instalar e Continuar** para prosseguir, ou **Pular instalação** se desejar configurar depois.

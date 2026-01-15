@@ -22,12 +22,13 @@ StageHex Docs/
 │   │   └── README.md
 │   └── requisitos-do-sistema.md
 │
+├── planos/               # Secao: Planos (logo apos Primeiros Passos)
+│   ├── README.md               # Comparativo de planos
+│   ├── stagehex-trial.md
+│   ├── stagehex-basic.md
+│   └── stagehex-pro.md
+│
 ├── visao-geral/          # Secao: Visao Geral
-│   ├── planos/
-│   │   ├── README.md           # Comparativo de planos
-│   │   ├── stagehex-trial.md
-│   │   ├── stagehex-basic.md
-│   │   └── stagehex-pro.md
 │   └── espacos-de-trabalho/
 │       ├── README.md
 │       └── ferramentas.md

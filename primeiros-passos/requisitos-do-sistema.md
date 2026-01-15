@@ -61,7 +61,7 @@ As bibliotecas são sincronizadas automaticamente para os diretórios padrão de
 |---------|----------|---------------------|---------------|
 | **Exportação MA2** | `.xml` | grandMA2 onPC ou grandMA3 onPC | StageHex Basic, StageHex Pro |
 | **MVR** | `.mvr` | Qualquer software compatível com MVR | StageHex Pro |
-| **MA3D Scene** | `.ma3d` | MA 3D (visualizador grandMA2) | StageHex Basic, StageHex Pro |
+| **MA3D Scene** | `gmamedia` | MA 3D (visualizador grandMA2) | StageHex Basic, StageHex Pro |
 
 {% hint style="warning" %}
 Para exportar no formato **MA3D Scene**, o **MA 3D** deve estar instalado no computador.
@@ -81,7 +81,7 @@ Para exportar no formato **MA3D Scene**, o **MA 3D** deve estar instalado no com
 | Exportação MA3D | - | Sim | Sim |
 
 {% hint style="info" %}
-Consulte a página de [Planos](../visao-geral/planos/README.md) para mais detalhes sobre cada plano.
+Consulte a página de [Planos](../planos/README.md) para mais detalhes sobre cada plano.
 {% endhint %}
 
 ***

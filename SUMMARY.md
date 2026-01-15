@@ -6,13 +6,13 @@
   * [Autorizando](primeiros-passos/autorizando/README.md)
   * [Atualização](primeiros-passos/atualizacao/README.md)
   * [Requisitos do Sistema](primeiros-passos/requisitos-do-sistema.md)
+* [Planos](planos/README.md)
+  * [StageHex Trial](planos/stagehex-trial.md)
+  * [StageHex Basic](planos/stagehex-basic.md)
+  * [StageHex Pro](planos/stagehex-pro.md)
 
 ## Visão Geral
 
-* [Planos](visao-geral/planos/README.md)
-  * [StageHex Trial](visao-geral/planos/stagehex-trial.md)
-  * [StageHex Basic](visao-geral/planos/stagehex-basic.md)
-  * [StageHex Pro](visao-geral/planos/stagehex-pro.md)
 * [Espaços de Trabalho](visao-geral/espacos-de-trabalho/README.md)
   * [Ferramentas](visao-geral/espacos-de-trabalho/ferramentas.md)
 

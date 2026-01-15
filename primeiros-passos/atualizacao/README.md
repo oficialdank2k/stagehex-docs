@@ -60,5 +60,5 @@ Certifique-se de fechar o SketchUp antes de atualizar o plugin para evitar confl
 | **Depence Library** | Assets para Depence | Somente Pro |
 
 {% hint style="info" %}
-A disponibilidade de bibliotecas varia conforme o plano contratado. Consulte a página de [Planos](../../visao-geral/planos/README.md) para mais detalhes.
+A disponibilidade de bibliotecas varia conforme o plano contratado. Consulte a página de [Planos](../../planos/README.md) para mais detalhes.
 {% endhint %}
