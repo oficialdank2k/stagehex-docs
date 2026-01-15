@@ -2,7 +2,7 @@
 
 Conecte-se à [sua conta StageHex](https://www.stagehex.com) para acessar a página de download do StageHex Cloud e obter o instalador mais recente do software.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Minha Conta – Página de Download</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Minha Conta – Página de Download</p></figcaption></figure>
 
 O instalador irá baixar e instalar automaticamente a versão mais recente disponível do StageHex Cloud no seu sistema.
 
