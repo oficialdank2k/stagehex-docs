@@ -41,18 +41,6 @@ Biblioteca de assets organizada por categorias, permitindo inserir componentes d
 
 <figure><img src="../../../../.gitbook/assets/sketchup/interface/1-interface-assets.png" alt="Assets"><figcaption><p>Biblioteca de Assets</p></figcaption></figure>
 
-### Estrutura de Pastas
-
-A biblioteca é organizada em categorias:
-
-* **Truss** - Treliças e conexões
-* **Deck** - Plataformas e acessórios
-* **LED** - Painéis LED
-* **Audio** - Caixas de som e line arrays
-* **Lighting** - Fixtures de iluminação
-* **Hoist** - Talhas e cintas
-* **Scaffold** - Andaimes
-
 ### Funcionalidades
 
 **Navegação por Pastas**
@@ -236,68 +224,3 @@ Exportação para o ecossistema grandMA2/MA3D.
 {% hint style="warning" %}
 Para exportar Cena MA3D, o software MA 3D deve estar instalado no computador.
 {% endhint %}
-
-***
-
-## Disponibilidade por Plano
-
-<table>
-<thead>
-<tr>
-<th>Funcionalidade</th>
-<th width="100" align="center">Trial</th>
-<th width="100" align="center">Basic</th>
-<th width="100" align="center">Pro</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Assets - Navegação</td>
-<td align="center">✔</td>
-<td align="center">✔</td>
-<td align="center">✔</td>
-</tr>
-<tr>
-<td>Assets - MA2 Library</td>
-<td align="center">✖</td>
-<td align="center">✔</td>
-<td align="center">✔</td>
-</tr>
-<tr>
-<td>Assets - Depence Library</td>
-<td align="center">✖</td>
-<td align="center">✖</td>
-<td align="center">✔</td>
-</tr>
-<tr>
-<td>Color System</td>
-<td align="center">✔</td>
-<td align="center">✔</td>
-<td align="center">✔</td>
-</tr>
-<tr>
-<td>Layers</td>
-<td align="center">✔</td>
-<td align="center">✔</td>
-<td align="center">✔</td>
-</tr>
-<tr>
-<td>Exportar MVR</td>
-<td align="center">✖</td>
-<td align="center">✖</td>
-<td align="center">✔</td>
-</tr>
-<tr>
-<td>Exportar MA2</td>
-<td align="center">✖</td>
-<td align="center">✔</td>
-<td align="center">✔</td>
-</tr>
-<tr>
-<td>Exportar MA3D Scene</td>
-<td align="center">✖</td>
-<td align="center">✔</td>
-<td align="center">✔</td>
-</tr>
-</tbody>
-</table>
