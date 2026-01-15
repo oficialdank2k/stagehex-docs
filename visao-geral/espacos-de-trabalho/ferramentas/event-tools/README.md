@@ -19,12 +19,12 @@ Ferramentas para criação de estruturas de eventos: plataformas (decks), escada
 <tbody>
 <tr>
 <td align="center">1</td>
-<td><a href="posicionar-deck.md"><strong>Posicionar Deck</strong></a></td>
-<td>Preenche faces selecionadas com módulos de deck</td>
+<td><a href="inserir-plataforma.md"><strong>Inserir Plataforma</strong></a></td>
+<td>Preenche faces selecionadas com módulos de plataforma</td>
 </tr>
 <tr>
 <td align="center">2</td>
-<td><a href="desenhar-deck.md"><strong>Desenhar Deck</strong></a></td>
+<td><a href="colocar-plataforma.md"><strong>Colocar Plataforma</strong></a></td>
 <td>Desenha plataformas interativamente com retângulos</td>
 </tr>
 <tr>

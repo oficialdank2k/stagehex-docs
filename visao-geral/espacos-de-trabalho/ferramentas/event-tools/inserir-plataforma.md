@@ -1,15 +1,15 @@
-# Posicionar Deck (Place Deck)
+# Inserir Plataforma (Place Deck)
 
-Ferramenta para preencher automaticamente faces selecionadas com módulos de deck.
+Ferramenta para preencher automaticamente faces selecionadas com módulos de plataforma.
 
-<figure><img src="../../../../.gitbook/assets/gif/event-tools/place-deck.gif" alt="Posicionar Deck"><figcaption><p>Preenchimento automático de faces com decks</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/gif/event-tools/place-deck.gif" alt="Inserir Plataforma"><figcaption><p>Preenchimento automático de faces com plataformas</p></figcaption></figure>
 
 ***
 
 ## Como Usar
 
 1. **Selecione** uma ou mais faces horizontais (pisos)
-2. Ative a ferramenta **Posicionar Deck**
+2. Ative a ferramenta **Inserir Plataforma**
 3. Ajuste **altura** e **direção** conforme necessário
 4. Pressione **Enter** para aplicar
 
@@ -31,7 +31,7 @@ Apenas **faces horizontais** (com normal apontando para cima ou para baixo) são
 <tbody>
 <tr>
 <td><strong>Enter</strong></td>
-<td>Aplicar decks</td>
+<td>Aplicar plataformas</td>
 </tr>
 <tr>
 <td><strong>Esc</strong></td>
@@ -59,9 +59,9 @@ Apenas **faces horizontais** (com normal apontando para cima ou para baixo) são
 Durante o uso, um painel exibe:
 
 - **Faces**: Quantidade de faces selecionadas
-- **Altura**: Altura atual dos decks (cm)
+- **Altura**: Altura atual das plataformas (cm)
 - **Direção**: Rotação dos módulos (0°, 90°, 180°, 270°)
-- **Decks**: Total de módulos que serão criados
+- **Plataformas**: Total de módulos que serão criados
 
 ***
 

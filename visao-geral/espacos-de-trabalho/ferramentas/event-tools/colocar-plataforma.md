@@ -1,8 +1,8 @@
-# Desenhar Deck (Draw Deck)
+# Colocar Plataforma (Draw Deck)
 
-Ferramenta para desenhar plataformas de deck interativamente através de retângulos.
+Ferramenta para desenhar plataformas interativamente através de retângulos.
 
-<figure><img src="../../../../.gitbook/assets/gif/event-tools/draw-deck.gif" alt="Desenhar Deck"><figcaption><p>Desenhando plataformas com retângulos</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/gif/event-tools/draw-deck.gif" alt="Colocar Plataforma"><figcaption><p>Desenhando plataformas com retângulos</p></figcaption></figure>
 
 ***
 
@@ -10,12 +10,12 @@ Ferramenta para desenhar plataformas de deck interativamente através de retâng
 
 ### Modo Desenho Livre
 
-1. Ative a ferramenta **Desenhar Deck**
+1. Ative a ferramenta **Colocar Plataforma**
 2. **1º clique**: Define o ponto inicial do retângulo
 3. **Arraste** para definir a área
 4. **2º clique**: Finaliza o retângulo
 5. Repita para criar múltiplas áreas
-6. Pressione **Enter** para aplicar todos os decks
+6. Pressione **Enter** para aplicar todas as plataformas
 
 {% hint style="info" %}
 Você pode desenhar **múltiplos retângulos** antes de aplicar. Todos serão criados de uma vez.
@@ -42,7 +42,7 @@ Você pode desenhar **múltiplos retângulos** antes de aplicar. Todos serão cr
 <tbody>
 <tr>
 <td><strong>Enter</strong></td>
-<td>Aplicar todos os decks</td>
+<td>Aplicar todas as plataformas</td>
 </tr>
 <tr>
 <td><strong>Esc</strong></td>
@@ -100,9 +100,9 @@ O modo VCB permite criar áreas de tamanho exato. Use **Esc** para voltar ao mod
 Durante o uso, um painel exibe:
 
 - **Modo**: Livre ou VCB (com dimensões)
-- **Altura**: Altura atual dos decks (cm)
+- **Altura**: Altura atual das plataformas (cm)
 - **Direção**: Rotação dos módulos (0°, 90°, 180°, 270°)
-- **Decks**: Total de módulos no preview
+- **Plataformas**: Total de módulos no preview
 
 ***
 
