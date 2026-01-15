@@ -12,8 +12,8 @@ const path = require('path');
 // Configurações de otimização
 const CONFIG = {
   optimize: 3,        // Nível de otimização (1-3)
-  colors: 128,        // Número de cores (mais cores = melhor qualidade)
-  lossy: 30,          // Nível de compressão lossy (0-200, menor = melhor qualidade)
+  colors: 256,        // Número de cores (256 = máximo, preserva cores)
+  lossy: 20,          // Nível de compressão lossy (0-200, menor = melhor qualidade)
   scale: 1.0,         // Escala (1.0 = manter tamanho original)
   loop: true,         // Loop infinito
 };
