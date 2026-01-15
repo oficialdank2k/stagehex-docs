@@ -59,7 +59,7 @@ No SketchUp, acesse:
 
 Exibe simultaneamente todas as barras de ferramentas do StageHex:
 
-* Core Tools
+* Main Tools
 * Event Tools
 * Rigging Tools
 * Lighting Tools

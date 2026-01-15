@@ -96,7 +96,7 @@ Plano completo para produção profissional avançada, incluindo rigging, automa
 </thead>
 <tbody>
 <tr>
-<td><strong>Ferramentas Core</strong> completas</td>
+<td><strong>Main Tools</strong> completas</td>
 <td align="center">✔</td>
 </tr>
 <tr>

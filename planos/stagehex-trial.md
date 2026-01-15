@@ -61,7 +61,7 @@ Plano gratuito para avaliação completa das ferramentas no SketchUp, sem export
 </thead>
 <tbody>
 <tr>
-<td><strong>Ferramentas Core</strong> (interface, mover, rotacionar, organizar, tags, visualização e cores)</td>
+<td><strong>Main Tools</strong> (interface, mover, rotacionar, organizar, tags, visualização e cores)</td>
 <td align="center">✔</td>
 </tr>
 <tr>

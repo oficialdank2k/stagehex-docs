@@ -96,7 +96,7 @@ Plano voltado para produção real, com exportação MA2 e biblioteca cloud esse
 </thead>
 <tbody>
 <tr>
-<td><strong>Ferramentas Core</strong> essenciais</td>
+<td><strong>Main Tools</strong> essenciais</td>
 <td align="center">✔</td>
 </tr>
 <tr>

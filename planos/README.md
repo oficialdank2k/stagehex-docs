@@ -23,7 +23,7 @@ A StageHex oferece três planos pensados para diferentes níveis de uso — desd
 <td align="center">✔</td>
 </tr>
 <tr>
-<td><strong>Ferramentas Core</strong></td>
+<td><strong>Main Tools</strong></td>
 <td align="center">✔ Completas</td>
 <td align="center">✔ Essenciais</td>
 <td align="center">✔ Completas</td>
