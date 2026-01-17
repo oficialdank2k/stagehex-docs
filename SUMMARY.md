@@ -46,6 +46,9 @@
       * [Patch Automático](visao-geral/plugin-sketchup/ferramentas/lighting-tools/patch-automatico.md)
       * [Trocar Modo](visao-geral/plugin-sketchup/ferramentas/lighting-tools/trocar-modo.md)
     * [Video/Audio Tools](visao-geral/plugin-sketchup/ferramentas/video-audio-tools.md)
+* [grandMA2](visao-geral/ma2.md)
+* [grandMA3](visao-geral/ma3.md)
+* [Depence](visao-geral/depence.md)
 
 ## Suporta Importar / Exportar
 
