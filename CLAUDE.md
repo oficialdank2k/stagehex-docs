@@ -10,7 +10,8 @@ StageHex Docs/
 │   ├── assets/           # Imagens e GIFs organizados por secao
 │   │   ├── gif/          # GIFs de demonstracao
 │   │   │   ├── main-tools/
-│   │   │   └── event-tools/
+│   │   │   ├── event-tools/
+│   │   │   └── rigging-tools/
 │   │   ├── instalacao/
 │   │   └── sketchup/
 │   └── includes/         # Snippets reutilizaveis
@@ -40,7 +41,7 @@ StageHex Docs/
 │           ├── README.md
 │           ├── main-tools/      # 9 ferramentas documentadas
 │           ├── event-tools/     # 2 ferramentas documentadas
-│           ├── rigging-tools.md
+│           ├── rigging-tools/   # 5 ferramentas documentadas
 │           ├── lighting-tools.md
 │           └── video-audio-tools.md
 │

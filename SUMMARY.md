@@ -29,7 +29,12 @@
     * [Event Tools](visao-geral/espacos-de-trabalho/ferramentas/event-tools/README.md)
       * [Inserir Plataforma](visao-geral/espacos-de-trabalho/ferramentas/event-tools/inserir-plataforma.md)
       * [Colocar Plataforma](visao-geral/espacos-de-trabalho/ferramentas/event-tools/colocar-plataforma.md)
-    * [Rigging Tools](visao-geral/espacos-de-trabalho/ferramentas/rigging-tools.md)
+    * [Rigging Tools](visao-geral/espacos-de-trabalho/ferramentas/rigging-tools/README.md)
+      * [Inserir Truss](visao-geral/espacos-de-trabalho/ferramentas/rigging-tools/inserir-truss.md)
+      * [Desenhar Truss](visao-geral/espacos-de-trabalho/ferramentas/rigging-tools/desenhar-truss.md)
+      * [Inserir Talha](visao-geral/espacos-de-trabalho/ferramentas/rigging-tools/inserir-talha.md)
+      * [Ajustar Altura](visao-geral/espacos-de-trabalho/ferramentas/rigging-tools/ajustar-altura.md)
+      * [Inserir Cinta](visao-geral/espacos-de-trabalho/ferramentas/rigging-tools/inserir-cinta.md)
     * [Lighting Tools](visao-geral/espacos-de-trabalho/ferramentas/lighting-tools.md)
     * [Video/Audio Tools](visao-geral/espacos-de-trabalho/ferramentas/video-audio-tools.md)
 
