@@ -35,7 +35,16 @@
       * [Inserir Talha](visao-geral/espacos-de-trabalho/ferramentas/rigging-tools/inserir-talha.md)
       * [Ajustar Altura](visao-geral/espacos-de-trabalho/ferramentas/rigging-tools/ajustar-altura.md)
       * [Inserir Cinta](visao-geral/espacos-de-trabalho/ferramentas/rigging-tools/inserir-cinta.md)
-    * [Lighting Tools](visao-geral/espacos-de-trabalho/ferramentas/lighting-tools.md)
+    * [Lighting Tools](visao-geral/espacos-de-trabalho/ferramentas/lighting-tools/README.md)
+      * [Inserir Equipamento](visao-geral/espacos-de-trabalho/ferramentas/lighting-tools/inserir-equipamento.md)
+      * [Distribuir Equipamento](visao-geral/espacos-de-trabalho/ferramentas/lighting-tools/distribuir-equipamento.md)
+      * [Distribuir no Truss](visao-geral/espacos-de-trabalho/ferramentas/lighting-tools/distribuir-no-truss.md)
+      * [Alinhar Equipamento](visao-geral/espacos-de-trabalho/ferramentas/lighting-tools/alinhar-equipamento.md)
+      * [Configurações](visao-geral/espacos-de-trabalho/ferramentas/lighting-tools/configuracoes.md)
+      * [Patch por Incremento](visao-geral/espacos-de-trabalho/ferramentas/lighting-tools/patch-por-incremento.md)
+      * [Patch por Seleção](visao-geral/espacos-de-trabalho/ferramentas/lighting-tools/patch-por-selecao.md)
+      * [Patch Automático](visao-geral/espacos-de-trabalho/ferramentas/lighting-tools/patch-automatico.md)
+      * [Trocar Modo](visao-geral/espacos-de-trabalho/ferramentas/lighting-tools/trocar-modo.md)
     * [Video/Audio Tools](visao-geral/espacos-de-trabalho/ferramentas/video-audio-tools.md)
 
 ## Suporta Importar / Exportar
