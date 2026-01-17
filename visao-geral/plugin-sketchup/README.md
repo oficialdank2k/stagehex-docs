@@ -10,7 +10,7 @@ No SketchUp, acesse:
 
 **Extensões → StageHex**
 
-<figure><img src="../.gitbook/assets/sketchup/extension/1-sketchup-extension.png" alt="Menu StageHex no SketchUp"><figcaption><p>Menu da extensão StageHex no SketchUp</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sketchup/extension/1-sketchup-extension.png" alt="Menu StageHex no SketchUp"><figcaption><p>Menu da extensão StageHex no SketchUp</p></figcaption></figure>
 
 ***
 
@@ -53,32 +53,6 @@ No SketchUp, acesse:
 
 ***
 
-## Gerenciamento de Barras
-
-### Mostrar Todas as Barras
-
-Exibe simultaneamente todas as barras de ferramentas do StageHex:
-
-* Main Tools
-* Event Tools
-* Rigging Tools
-* Lighting Tools
-* Video / Audio Tools
-
-### Ocultar Todas as Barras
-
-Oculta todas as barras de ferramentas para liberar espaço na interface do SketchUp.
-
-### Resetar Posições das Barras
-
-Restaura as barras de ferramentas para suas posições originais. Útil quando as barras são movidas acidentalmente ou ficam fora da área visível.
-
-{% hint style="info" %}
-Use esta opção se alguma barra de ferramentas desaparecer ou ficar em posição inadequada.
-{% endhint %}
-
-***
-
 ## Autenticação Manual
 
 A opção **Autenticar** permite realizar a autenticação manualmente quando houver problemas de comunicação com a StageHex Cloud.
@@ -99,7 +73,7 @@ Use esta opção apenas se o plugin apresentar falha na autenticação automáti
 
 Exibe informações detalhadas sobre o estado atual do plugin e da licença.
 
-<figure><img src="../.gitbook/assets/sketchup/extension/2-sketchup-status.png" alt="Status do Plugin StageHex"><figcaption><p>Janela de status do plugin</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sketchup/extension/2-sketchup-status.png" alt="Status do Plugin StageHex"><figcaption><p>Janela de status do plugin</p></figcaption></figure>
 
 ### Informações Exibidas
 
@@ -152,7 +126,7 @@ O ícone de aviso indica que o plugin está operando em modo offline. Neste modo
 
 Exibe informações sobre a versão do plugin e os desenvolvedores.
 
-<figure><img src="../.gitbook/assets/sketchup/extension/3-sketchup-about.png" alt="Sobre StageHex"><figcaption><p>Janela Sobre StageHex</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sketchup/extension/3-sketchup-about.png" alt="Sobre StageHex"><figcaption><p>Janela Sobre StageHex</p></figcaption></figure>
 
 **Informações exibidas:**
 

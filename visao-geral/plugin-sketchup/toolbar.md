@@ -1,4 +1,4 @@
-# Espaços de Trabalho
+# Toolbar
 
 O StageHex organiza suas ferramentas em 5 barras de ferramentas especializadas, cada uma focada em uma área específica da produção de eventos.
 

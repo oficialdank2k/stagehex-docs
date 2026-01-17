@@ -35,15 +35,15 @@ StageHex Docs/
 │   └── stagehex-pro.md
 │
 ├── visao-geral/          # Secao: Visao Geral
-│   ├── plugin-sketchup.md
-│   └── espacos-de-trabalho/
-│       ├── README.md
+│   └── plugin-sketchup/
+│       ├── README.md       # Menu do plugin (autenticacao, status)
+│       ├── toolbar.md      # Barras de ferramentas (imagens, planos)
 │       └── ferramentas/
-│           ├── README.md
-│           ├── main-tools/      # 9 ferramentas documentadas
-│           ├── event-tools/     # 2 ferramentas documentadas
-│           ├── rigging-tools/   # 5 ferramentas documentadas
-│           ├── lighting-tools/  # 9 ferramentas documentadas
+│           ├── README.md         # Categorias
+│           ├── main-tools/       # 9 ferramentas documentadas
+│           ├── event-tools/      # 2 ferramentas documentadas
+│           ├── rigging-tools/    # 5 ferramentas documentadas
+│           ├── lighting-tools/   # 9 ferramentas documentadas
 │           └── video-audio-tools.md
 │
 ├── suporta-importar-exportar/
@@ -95,7 +95,7 @@ npm run prepare          # Configura git hooks
 
 ### Adicionar Nova Ferramenta
 1. Adicionar GIF em `.gitbook/assets/gif/<categoria>/`
-2. Criar pagina .md em `visao-geral/espacos-de-trabalho/ferramentas/<categoria>/`
+2. Criar pagina .md em `visao-geral/plugin-sketchup/ferramentas/<categoria>/`
 3. Atualizar SUMMARY.md
 4. GIFs sao otimizados automaticamente no commit
 

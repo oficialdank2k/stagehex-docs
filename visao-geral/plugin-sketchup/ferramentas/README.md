@@ -19,15 +19,15 @@ Documentação completa de todas as ferramentas disponíveis no plugin StageHex 
 <td>Interface, manipulação de objetos, organização e visualização</td>
 </tr>
 <tr>
-<td><a href="event-tools.md"><strong>Event Tools</strong></a></td>
+<td><a href="event-tools/"><strong>Event Tools</strong></a></td>
 <td>Plataformas, escadas e guarda-corpos</td>
 </tr>
 <tr>
-<td><a href="rigging-tools.md"><strong>Rigging Tools</strong></a></td>
+<td><a href="rigging-tools/"><strong>Rigging Tools</strong></a></td>
 <td>Treliças, tubos, talhas, cintas e andaimes</td>
 </tr>
 <tr>
-<td><a href="lighting-tools.md"><strong>Lighting Tools</strong></a></td>
+<td><a href="lighting-tools/"><strong>Lighting Tools</strong></a></td>
 <td>Equipamentos de iluminação, distribuição e patch DMX</td>
 </tr>
 <tr>
@@ -51,27 +51,27 @@ Documentação completa de todas as ferramentas disponíveis no plugin StageHex 
 <tbody>
 <tr>
 <td><a href="main-tools/">Main Tools</a></td>
-<td align="center">12</td>
-</tr>
-<tr>
-<td><a href="event-tools.md">Event Tools</a></td>
-<td align="center">5</td>
-</tr>
-<tr>
-<td><a href="rigging-tools.md">Rigging Tools</a></td>
 <td align="center">9</td>
 </tr>
 <tr>
-<td><a href="lighting-tools.md">Lighting Tools</a></td>
-<td align="center">11</td>
+<td><a href="event-tools/">Event Tools</a></td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td><a href="rigging-tools/">Rigging Tools</a></td>
+<td align="center">5</td>
+</tr>
+<tr>
+<td><a href="lighting-tools/">Lighting Tools</a></td>
+<td align="center">9</td>
 </tr>
 <tr>
 <td><a href="video-audio-tools.md">Video/Audio Tools</a></td>
-<td align="center">4</td>
+<td align="center">Planejado</td>
 </tr>
 <tr>
-<td><strong>Total</strong></td>
-<td align="center"><strong>41</strong></td>
+<td><strong>Total Documentado</strong></td>
+<td align="center"><strong>25</strong></td>
 </tr>
 </tbody>
 </table>
