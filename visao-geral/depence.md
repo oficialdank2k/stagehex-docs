@@ -1,12 +1,12 @@
 # Depence
 
-Integração do StageHex com o Depence, incluindo biblioteca de fixtures e importação via MVR.
+Integração do StageHex com o Depence, incluindo instalação automática da biblioteca de fixtures StageHex e importação via MVR.
 
 ***
 
-## Biblioteca Depence
+## Biblioteca StageHex para Depence
 
-A **StageHex Cloud** instala automaticamente a biblioteca de fixtures no Depence.
+A **StageHex Cloud** instala automaticamente a biblioteca de fixtures **StageHex** no Depence.
 
 ### Detecção Automática
 
@@ -16,9 +16,9 @@ O sistema detecta automaticamente instalações do Depence:
 - **Versões**: Detecta Depence2 e Depence4
 - **Seleção**: Usa a versão mais recente por padrão (Depence4 > Depence2)
 
-### Estrutura da Biblioteca
+### Instalação Automática
 
-A biblioteca StageHex é instalada em:
+A biblioteca de fixtures StageHex é instalada em:
 
 ```
 C:\ProgramData\Syncronorm\Depence4\FactoryLibrary\asset_files\
@@ -26,13 +26,17 @@ C:\ProgramData\Syncronorm\Depence4\FactoryLibrary\asset_files\
 
 Os fixtures ficam organizados por fabricante dentro da estrutura do Depence.
 
+{% hint style="info" %}
+A instalação é feita automaticamente pela StageHex Cloud. Basta manter o aplicativo aberto para receber atualizações da biblioteca.
+{% endhint %}
+
 ***
 
-## Acessando a Biblioteca
+## Acessando os Fixtures StageHex
 
-### Localização dos Fixtures
+### Localização no Depence
 
-<figure><img src="../.gitbook/assets/depence/1-depence-library.png" alt="Biblioteca Depence"><figcaption><p>Fixtures StageHex na biblioteca do Depence</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/depence/1-depence-library.png" alt="Biblioteca Depence"><figcaption><p>Fixtures da biblioteca StageHex no Depence (Fixtures/StageHex/Manufacturer)</p></figcaption></figure>
 
 **Navegação:**
 
@@ -41,14 +45,14 @@ Os fixtures ficam organizados por fabricante dentro da estrutura do Depence.
 3. Expanda para ver os fixtures disponíveis
 
 {% hint style="info" %}
-A biblioteca StageHex é instalada automaticamente pela StageHex Cloud e atualizada regularmente.
+Os fixtures são instalados automaticamente pela StageHex Cloud e atualizados regularmente.
 {% endhint %}
 
 ***
 
 ## Exportando do SketchUp
 
-Para exportar seu projeto para o Depence:
+Para exportar seu projeto do StageHex para o Depence:
 
 1. Abra o **Gerenciador de Interface** (primeiro botão da Main Tools)
 2. Vá para a aba **Exportar**
@@ -61,7 +65,7 @@ O Depence importa projetos através do formato MVR padrão.
 
 ## Importando no Depence
 
-### Importando MVR
+### Importando Arquivo MVR
 
 <figure><img src="../.gitbook/assets/depence/2-depence-import-mvr.png" alt="Importar MVR Depence"><figcaption><p>Matching Type com fixtures da biblioteca StageHex</p></figcaption></figure>
 
@@ -75,7 +79,7 @@ O Depence importa projetos através do formato MVR padrão.
 
 ### Matching Type
 
-Durante a importação, o Depence permite associar os fixtures do MVR com os da biblioteca:
+Durante a importação, o Depence permite associar os fixtures do MVR com os da biblioteca StageHex:
 
 <table>
 <thead>
@@ -91,7 +95,7 @@ Durante a importação, o Depence permite associar os fixtures do MVR com os da 
 </tr>
 <tr>
 <td><strong>Library Match</strong></td>
-<td>Fixture correspondente na biblioteca</td>
+<td>Fixture correspondente na biblioteca StageHex</td>
 </tr>
 <tr>
 <td><strong>Status</strong></td>
@@ -101,7 +105,7 @@ Durante a importação, o Depence permite associar os fixtures do MVR com os da 
 </table>
 
 {% hint style="info" %}
-Os fixtures StageHex são automaticamente reconhecidos quando a biblioteca está instalada.
+Os fixtures StageHex são automaticamente reconhecidos quando a biblioteca está instalada pela StageHex Cloud.
 {% endhint %}
 
 ***
@@ -131,7 +135,7 @@ Os fixtures StageHex são automaticamente reconhecidos quando a biblioteca está
 
 ### Arquivos Instalados
 
-A StageHex Cloud gerencia os seguintes arquivos:
+A StageHex Cloud gerencia os seguintes arquivos no Depence:
 
 <table>
 <thead>
@@ -147,7 +151,7 @@ A StageHex Cloud gerencia os seguintes arquivos:
 </tr>
 <tr>
 <td><strong>asset_files/</strong></td>
-<td>Pasta com arquivos dos fixtures</td>
+<td>Pasta com arquivos dos fixtures StageHex</td>
 </tr>
 </tbody>
 </table>
@@ -156,10 +160,11 @@ A StageHex Cloud gerencia os seguintes arquivos:
 
 A StageHex Cloud gerencia automaticamente:
 
-- **Detecção de versão**: Identifica Depence2 e Depence4
-- **Atualização de biblioteca**: Sincroniza fixtures com a nuvem
+- **Detecção de versão**: Identifica Depence2 e Depence4 instalados
+- **Instalação da biblioteca**: Instala os fixtures StageHex na FactoryLibrary
+- **Atualização**: Sincroniza novos fixtures quando disponíveis
 - **Configuração de caminhos**: Ajusta paths conforme versão selecionada
 
 {% hint style="warning" %}
-Não modifique manualmente os arquivos na pasta FactoryLibrary. Use a StageHex Cloud para atualizações.
+Não modifique manualmente os arquivos da biblioteca StageHex na pasta FactoryLibrary. Use a StageHex Cloud para atualizações.
 {% endhint %}

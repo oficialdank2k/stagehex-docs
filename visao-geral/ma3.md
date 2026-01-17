@@ -18,7 +18,7 @@ O **MVR** (My Virtual Rig) é um formato padrão da indústria para troca de dad
 
 ## Exportando do SketchUp
 
-Para exportar seu projeto em MVR:
+Para exportar seu projeto do StageHex em MVR:
 
 1. Abra o **Gerenciador de Interface** (primeiro botão da Main Tools)
 2. Vá para a aba **Exportar**
@@ -32,14 +32,14 @@ Veja detalhes em: [Exportar MVR](plugin-sketchup/ferramentas/main-tools/interfac
 
 ## Importando no grandMA3
 
-### Importando MVR
+### Importando Arquivo MVR
 
-<figure><img src="../.gitbook/assets/ma3/1-ma3-import-mvr.png" alt="Importar MVR no MA3"><figcaption><p>Importando arquivo MVR no grandMA3</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/ma3/1-ma3-import-mvr.png" alt="Importar MVR no MA3"><figcaption><p>Importando arquivo MVR exportado pelo StageHex no grandMA3</p></figcaption></figure>
 
 **Passos:**
 
 1. No grandMA3, vá para **Menu → Import → MVR**
-2. Navegue até o arquivo `.mvr` exportado
+2. Navegue até o arquivo `.mvr` exportado pelo StageHex
 3. Selecione as opções de importação
 4. Confirme a importação
 
@@ -67,7 +67,7 @@ A StageHex Cloud detecta automaticamente instalações do grandMA3:
 
 ### Destino de Exportação
 
-Ao exportar MVR, você pode escolher:
+Ao exportar MVR do StageHex, você pode escolher:
 
 <table>
 <thead>
@@ -129,7 +129,7 @@ Salvando na Biblioteca GMA3, o arquivo estará disponível automaticamente para 
 <tbody>
 <tr>
 <td><strong>Apenas seleção</strong></td>
-<td>Exporta somente fixtures selecionados</td>
+<td>Exporta somente fixtures selecionados no SketchUp</td>
 </tr>
 <tr>
 <td><strong>Incluir geometrias</strong></td>
@@ -139,5 +139,5 @@ Salvando na Biblioteca GMA3, o arquivo estará disponível automaticamente para 
 </table>
 
 {% hint style="warning" %}
-Certifique-se de que os fixtures estão patcheados antes de exportar para incluir os endereços DMX no MVR.
+Certifique-se de que os fixtures estão patcheados no StageHex antes de exportar para incluir os endereços DMX no MVR.
 {% endhint %}

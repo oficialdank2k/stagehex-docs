@@ -1,12 +1,12 @@
 # grandMA2
 
-Integração do StageHex com o ecossistema grandMA2, incluindo biblioteca de fixtures e exportação para MA 3D.
+Integração do StageHex com o ecossistema grandMA2, incluindo instalação automática da biblioteca de fixtures StageHex e exportação para MA 3D.
 
 ***
 
-## Biblioteca MA2
+## Biblioteca StageHex para MA2
 
-A **StageHex Cloud** instala automaticamente a biblioteca de fixtures grandMA2 no seu computador.
+A **StageHex Cloud** instala automaticamente a biblioteca de fixtures **StageHex** no grandMA2.
 
 ### Detecção Automática
 
@@ -16,16 +16,16 @@ O sistema detecta automaticamente instalações do grandMA2:
 - **Versões**: Detecta todas as versões `gma2_V_*` instaladas
 - **Seleção**: Usa a versão mais recente por padrão
 
-### Instalação da Biblioteca
+### Instalação Automática
 
-A biblioteca StageHex é instalada em:
+A biblioteca de fixtures StageHex é instalada em:
 
 ```
 C:\ProgramData\MA Lighting Technologies\grandma\gma2_V_X.X.X\library\
 ```
 
 {% hint style="info" %}
-A instalação é feita automaticamente pela StageHex Cloud. Basta manter o aplicativo aberto para receber atualizações.
+A instalação é feita automaticamente pela StageHex Cloud. Basta manter o aplicativo aberto para receber atualizações da biblioteca.
 {% endhint %}
 
 ***
@@ -57,11 +57,11 @@ Após exportar do SketchUp, importe as macros no grandMA2:
 3. Selecione os arquivos de macro (`.xml`)
 4. Execute as macros para criar o patch
 
-### Selecionando Fixture Types
+### Selecionando Fixtures StageHex
 
 Os fixtures da biblioteca StageHex estarão disponíveis no Fixture Types:
 
-<figure><img src="../.gitbook/assets/ma2-ma3d/2-ma2-fixture-types.png" alt="Fixture Types MA2"><figcaption><p>Fixtures StageHex na biblioteca do grandMA2</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/ma2-ma3d/2-ma2-fixture-types.png" alt="Fixture Types MA2"><figcaption><p>Fixtures da biblioteca StageHex no grandMA2</p></figcaption></figure>
 
 **Localização:**
 
@@ -71,14 +71,14 @@ Os fixtures da biblioteca StageHex estarão disponíveis no Fixture Types:
 4. Selecione o fixture desejado
 
 {% hint style="info" %}
-Os fixtures da biblioteca StageHex são instalados automaticamente pela StageHex Cloud e atualizados regularmente.
+Os fixtures são instalados automaticamente pela StageHex Cloud e atualizados regularmente.
 {% endhint %}
 
 ***
 
 ## Importando no MA 3D
 
-A cena 3D pode ser importada diretamente no MA 3D:
+A cena 3D exportada pelo StageHex pode ser importada diretamente no MA 3D:
 
 <figure><img src="../.gitbook/assets/ma2-ma3d/3-ma2-3d-import.png" alt="Importar MA 3D"><figcaption><p>Importando SH_SCENE no MA 3D</p></figcaption></figure>
 
@@ -134,8 +134,9 @@ O software MA 3D deve estar instalado para a exportação da cena 3D funcionar.
 
 A StageHex Cloud gerencia automaticamente:
 
-- **Detecção de versão**: Identifica todas as versões instaladas
-- **Atualização de biblioteca**: Sincroniza fixtures com a nuvem
+- **Detecção de versão**: Identifica todas as versões do grandMA2 instaladas
+- **Instalação da biblioteca**: Instala os fixtures StageHex na pasta library
+- **Atualização**: Sincroniza novos fixtures quando disponíveis
 - **Configuração de caminhos**: Ajusta paths automaticamente
 
 {% hint style="info" %}
