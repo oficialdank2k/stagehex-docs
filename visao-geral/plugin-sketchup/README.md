@@ -26,11 +26,11 @@ No SketchUp, acesse:
 <tbody>
 <tr>
 <td><strong>Mostrar Todas as Barras</strong></td>
-<td>Exibe todas as barras de ferramentas do StageHex</td>
+<td>Exibe todas as barras de ferramentas da StageHex</td>
 </tr>
 <tr>
 <td><strong>Ocultar Todas as Barras</strong></td>
-<td>Oculta todas as barras de ferramentas do StageHex</td>
+<td>Oculta todas as barras de ferramentas da StageHex</td>
 </tr>
 <tr>
 <td><strong>Resetar Posições das Barras</strong></td>
@@ -136,5 +136,5 @@ Exibe informações sobre a versão do plugin e os desenvolvedores.
 * Website oficial
 
 {% hint style="info" %}
-Visite [hexcale.art](https://www.hexcale.art) para mais informações sobre o desenvolvimento do StageHex.
+Visite [hexcale.art](https://www.hexcale.art) para mais informações sobre o desenvolvimento da StageHex.
 {% endhint %}

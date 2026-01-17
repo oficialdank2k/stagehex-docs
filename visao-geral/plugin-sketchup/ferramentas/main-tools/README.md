@@ -20,7 +20,7 @@ Ferramentas essenciais para interface, manipulação de objetos, organização e
 <tr>
 <td align="center">1</td>
 <td><strong>Gerenciador de Interface</strong></td>
-<td>Abre o painel principal de gerenciamento do StageHex</td>
+<td>Abre o painel principal de gerenciamento da StageHex</td>
 </tr>
 <tr>
 <td align="center">2</td>
@@ -86,7 +86,7 @@ Ferramentas essenciais para interface, manipulação de objetos, organização e
 
 ### Gerenciador de Interface
 
-Abre o painel principal de gerenciamento do StageHex, onde você pode:
+Abre o painel principal de gerenciamento da StageHex, onde você pode:
 
 * Gerenciar biblioteca de componentes
 * Configurar cores do sistema

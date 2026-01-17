@@ -1,17 +1,19 @@
 # Importando no Depence
 
-O Depence importa projetos do StageHex através do formato MVR.
+O Depence importa projetos da StageHex através do formato MVR.
 
 ***
 
 ## Exportando do SketchUp
 
-Para exportar seu projeto do StageHex para o Depence:
+Para exportar seu projeto da StageHex para o Depence:
 
 1. Abra o **Gerenciador de Interface** (primeiro botão da Main Tools)
 2. Vá para a aba **Exportar**
 3. Selecione **MVR**
 4. Exporte o arquivo `.mvr`
+
+Veja detalhes completos em: [Gerenciador de Interface → Exportar MVR](../plugin-sketchup/ferramentas/main-tools/interface.md#exportar-mvr)
 
 ***
 
@@ -22,7 +24,7 @@ Para exportar seu projeto do StageHex para o Depence:
 **Passos:**
 
 1. No Depence, vá para **File → Import → MVR**
-2. Selecione o arquivo `.mvr` exportado do StageHex
+2. Selecione o arquivo `.mvr` exportado da StageHex
 3. Na tela de **Matching Type**, associe os fixtures
 4. Selecione os fixtures correspondentes da biblioteca StageHex
 5. Confirme a importação
@@ -48,10 +50,6 @@ Durante a importação, o Depence permite associar os fixtures do MVR com os da 
 <tr>
 <td><strong>Library Match</strong></td>
 <td>Fixture correspondente na biblioteca StageHex</td>
-</tr>
-<tr>
-<td><strong>Status</strong></td>
-<td>Indica se o match foi encontrado</td>
 </tr>
 </tbody>
 </table>

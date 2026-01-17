@@ -6,7 +6,7 @@ Após exportar do SketchUp, importe as macros no grandMA2.
 
 ## Importando Macros
 
-<figure><img src="../../.gitbook/assets/ma2-ma3d/1-ma2-import-macros.png" alt="Importar Macros MA2"><figcaption><p>Importando macros do StageHex no grandMA2</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ma2-ma3d/1-ma2-import-macros.png" alt="Importar Macros MA2"><figcaption><p>Importando macros da StageHex no grandMA2</p></figcaption></figure>
 
 **Passos:**
 

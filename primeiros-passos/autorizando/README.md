@@ -20,7 +20,7 @@ Uma nova janela será aberta no seu navegador padrão para realizar a autentica�
 
 ## 2. Autorizar Acesso
 
-No navegador, você verá uma solicitação de autorização do StageHex Cloud:
+No navegador, você verá uma solicitação de autorização da StageHex Cloud:
 
 <figure><img src="../../.gitbook/assets/instalacao/3-stagehex-manager-to-cloud.png" alt=""><figcaption><p>Autorização – Conexão entre Navegador e StageHex Cloud</p></figcaption></figure>
 

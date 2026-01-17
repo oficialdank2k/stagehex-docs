@@ -1,6 +1,6 @@
 # grandMA3
 
-Integração do StageHex com o grandMA3 através do formato MVR (My Virtual Rig).
+Integração da StageHex com o grandMA3 através do formato MVR (My Virtual Rig).
 
 ***
 
@@ -36,5 +36,5 @@ O **MVR** (My Virtual Rig) é um formato padrão da indústria que inclui:
 </table>
 
 {% hint style="warning" %}
-Certifique-se de que os fixtures estão patcheados no StageHex antes de exportar para incluir os endereços DMX no MVR.
+Certifique-se de que os fixtures estão patcheados na StageHex antes de exportar para incluir os endereços DMX no MVR.
 {% endhint %}

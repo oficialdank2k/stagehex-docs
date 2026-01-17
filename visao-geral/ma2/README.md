@@ -1,6 +1,6 @@
 # grandMA2
 
-Integração do StageHex com o ecossistema grandMA2, incluindo exportação de fixtures e cena 3D para MA 3D.
+Integração da StageHex com o ecossistema grandMA2, incluindo exportação de fixtures e cena 3D para MA 3D.
 
 ***
 

@@ -20,7 +20,7 @@ Certifique-se de que sua conta StageHex possui uma **assinatura ativa** antes de
 
 ## 2. Executar o Instalador
 
-Após o download, execute o instalador. O processo é automático e instalará a versão mais recente do StageHex Cloud no seu sistema.
+Após o download, execute o instalador. O processo é automático e instalará a versão mais recente da StageHex Cloud no seu sistema.
 
 {% hint style="warning" %}
 **Requisitos importantes:**
@@ -52,7 +52,7 @@ Clique em **Instalar e Continuar** para prosseguir, ou **Pular instalação** se
 
 ## 4. Dashboard Principal
 
-Após a configuração, você terá acesso ao dashboard principal do StageHex Cloud:
+Após a configuração, você terá acesso ao dashboard principal da StageHex Cloud:
 
 <figure><img src="../../.gitbook/assets/instalacao/5-stagehex-cloud-dashboard.png" alt=""><figcaption><p>Dashboard – StageHex Cloud</p></figcaption></figure>
 

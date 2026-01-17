@@ -293,5 +293,5 @@ A conexão com a internet é obrigatória para instalação, sincronização de 
 </table>
 
 {% hint style="danger" %}
-O uso do StageHex Cloud fora dos ambientes oficialmente suportados pode resultar em falhas, instabilidade ou perda de desempenho.
+O uso da StageHex Cloud fora dos ambientes oficialmente suportados pode resultar em falhas, instabilidade ou perda de desempenho.
 {% endhint %}
