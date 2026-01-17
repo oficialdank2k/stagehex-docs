@@ -46,9 +46,16 @@
       * [Patch Automático](visao-geral/plugin-sketchup/ferramentas/lighting-tools/patch-automatico.md)
       * [Trocar Modo](visao-geral/plugin-sketchup/ferramentas/lighting-tools/trocar-modo.md)
     * [Video/Audio Tools](visao-geral/plugin-sketchup/ferramentas/video-audio-tools.md)
-* [grandMA2](visao-geral/ma2.md)
-* [grandMA3](visao-geral/ma3.md)
-* [Depence](visao-geral/depence.md)
+* [grandMA2](visao-geral/ma2/README.md)
+  * [Exportando para grandMA2](visao-geral/ma2/exportando.md)
+  * [Importando no grandMA2](visao-geral/ma2/importando-ma2.md)
+  * [Importando no MA 3D](visao-geral/ma2/importando-ma3d.md)
+* [grandMA3](visao-geral/ma3/README.md)
+  * [Exportando para grandMA3](visao-geral/ma3/exportando.md)
+  * [Importando no grandMA3](visao-geral/ma3/importando.md)
+* [Depence](visao-geral/depence/README.md)
+  * [Biblioteca StageHex](visao-geral/depence/biblioteca.md)
+  * [Importando no Depence](visao-geral/depence/importando.md)
 
 ## Suporta Importar / Exportar
 

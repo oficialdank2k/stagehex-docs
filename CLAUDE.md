@@ -14,7 +14,10 @@ StageHex Docs/
 │   │   │   ├── rigging-tools/
 │   │   │   └── lighting-tools/
 │   │   ├── instalacao/
-│   │   └── sketchup/
+│   │   ├── sketchup/
+│   │   ├── ma2-ma3d/     # Screenshots grandMA2 e MA 3D
+│   │   ├── ma3/          # Screenshots grandMA3
+│   │   └── depence/      # Screenshots Depence
 │   └── includes/         # Snippets reutilizaveis
 │
 ├── .githooks/            # Git hooks (pre-commit para otimizar GIFs)
@@ -35,16 +38,29 @@ StageHex Docs/
 │   └── stagehex-pro.md
 │
 ├── visao-geral/          # Secao: Visao Geral
-│   └── plugin-sketchup/
-│       ├── README.md       # Menu do plugin (autenticacao, status)
-│       ├── toolbar.md      # Barras de ferramentas (imagens, planos)
-│       └── ferramentas/
-│           ├── README.md         # Categorias
-│           ├── main-tools/       # 9 ferramentas documentadas
-│           ├── event-tools/      # 2 ferramentas documentadas
-│           ├── rigging-tools/    # 5 ferramentas documentadas
-│           ├── lighting-tools/   # 9 ferramentas documentadas
-│           └── video-audio-tools.md
+│   ├── plugin-sketchup/
+│   │   ├── README.md       # Menu do plugin (autenticacao, status)
+│   │   ├── toolbar.md      # Barras de ferramentas (imagens, planos)
+│   │   └── ferramentas/
+│   │       ├── README.md         # Categorias
+│   │       ├── main-tools/       # 9 ferramentas documentadas
+│   │       ├── event-tools/      # 2 ferramentas documentadas
+│   │       ├── rigging-tools/    # 5 ferramentas documentadas
+│   │       ├── lighting-tools/   # 9 ferramentas documentadas
+│   │       └── video-audio-tools.md
+│   ├── ma2/              # Integracao grandMA2
+│   │   ├── README.md           # Visao geral e compatibilidade
+│   │   ├── exportando.md       # Exportando do SketchUp
+│   │   ├── importando-ma2.md   # Importando macros no MA2
+│   │   └── importando-ma3d.md  # Importando cena no MA 3D
+│   ├── ma3/              # Integracao grandMA3
+│   │   ├── README.md           # Visao geral e compatibilidade
+│   │   ├── exportando.md       # Exportando MVR do SketchUp
+│   │   └── importando.md       # Importando MVR no MA3
+│   └── depence/          # Integracao Depence
+│       ├── README.md           # Visao geral e compatibilidade
+│       ├── biblioteca.md       # Biblioteca StageHex no Depence
+│       └── importando.md       # Importando MVR no Depence
 │
 ├── suporta-importar-exportar/
 │   ├── formatos-de-importacao.md
