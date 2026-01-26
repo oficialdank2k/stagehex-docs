@@ -4,6 +4,85 @@ O plugin StageHex adiciona um menu de configurações no SketchUp para gerenciar
 
 ***
 
+## Migração de Projetos Antigos (v3 → v4)
+
+Ao abrir um projeto criado com versões anteriores do StageHex (v3), o plugin detecta automaticamente os assets antigos e oferece a opção de migrá-los para o novo formato (v4).
+
+<figure><img src="../../.gitbook/assets/sketchup/extension/1-migrate-v3-to-v4.png" alt="Diálogo de migração v3 para v4"><figcaption><p>Diálogo de migração de assets antigos</p></figcaption></figure>
+
+### O que acontece na migração?
+
+* Os assets são atualizados com novos metadados internos (identificadores únicos)
+* A geometria e posicionamento dos assets permanecem inalterados
+* O processo é reversível através do comando **Desfazer** (Ctrl+Z)
+
+{% hint style="info" %}
+A migração é necessária para que os assets possam receber atualizações futuras da biblioteca StageHex.
+{% endhint %}
+
+### Como proceder
+
+1. Clique em **Sim** para migrar os assets automaticamente
+2. Aguarde o processo ser concluído
+3. Salve o projeto para preservar as alterações
+
+{% hint style="warning" %}
+Recomendamos fazer backup do projeto antes de migrar, especialmente em projetos grandes ou complexos.
+{% endhint %}
+
+***
+
+## Atualização de Assets
+
+Ao abrir um projeto, o plugin verifica se há assets da biblioteca StageHex com versões mais recentes disponíveis. Caso existam atualizações, um diálogo é exibido perguntando se deseja atualizar.
+
+<figure><img src="../../.gitbook/assets/sketchup/extension/2-update-assets.png" alt="Diálogo de atualização de assets"><figcaption><p>Diálogo de atualização de assets</p></figcaption></figure>
+
+### Informações exibidas
+
+O diálogo mostra:
+
+* **Quantidade de assets** que serão atualizados
+* **Lista de assets** com a versão atual e a nova versão (ex: v0 → v1)
+* **Assets com geometria atualizada** (quando houver alterações no modelo 3D)
+
+### O que é atualizado?
+
+<table>
+<thead>
+<tr>
+<th>Tipo de Atualização</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Metadados</strong></td>
+<td>Informações técnicas como peso, potência, fabricante, etc.</td>
+</tr>
+<tr>
+<td><strong>Geometria</strong></td>
+<td>Modelo 3D do asset (quando indicado no diálogo)</td>
+</tr>
+</tbody>
+</table>
+
+{% hint style="info" %}
+As atualizações de geometria substituem o modelo 3D do asset, mas mantêm o posicionamento e rotação no projeto.
+{% endhint %}
+
+### Como proceder
+
+1. Revise a lista de assets que serão atualizados
+2. Clique em **Sim** para aplicar as atualizações
+3. Clique em **Não** para manter os assets nas versões atuais
+
+{% hint style="warning" %}
+Se você fez modificações manuais em algum asset StageHex, a atualização de geometria substituirá essas alterações.
+{% endhint %}
+
+***
+
 ## Acessando o Menu
 
 No SketchUp, acesse:

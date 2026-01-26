@@ -15,6 +15,7 @@
 
 * [Plugin SketchUp](visao-geral/plugin-sketchup/README.md)
   * [Toolbar](visao-geral/plugin-sketchup/toolbar.md)
+  * [Exportar e Relatórios](visao-geral/plugin-sketchup/exportacao.md)
   * [Ferramentas](visao-geral/plugin-sketchup/ferramentas/README.md)
     * [Main Tools](visao-geral/plugin-sketchup/ferramentas/main-tools/README.md)
       * [Gerenciador de Interface](visao-geral/plugin-sketchup/ferramentas/main-tools/interface.md)

@@ -26,12 +26,12 @@ O Gerenciador de Interface é o painel principal da StageHex, acessível atravé
 <td><strong>Layers</strong></td>
 <td>Gerenciamento de visibilidade e organização</td>
 </tr>
-<tr>
-<td><strong>Exportar</strong></td>
-<td>Exportação para MVR e grandMA2</td>
-</tr>
 </tbody>
 </table>
+
+{% hint style="info" %}
+Para exportação de projetos e relatórios, acesse **Arquivo → StageHex Export**. Veja mais em [Exportar e Relatórios](../../exportacao.md).
+{% endhint %}
 
 ***
 
@@ -39,7 +39,7 @@ O Gerenciador de Interface é o painel principal da StageHex, acessível atravé
 
 Biblioteca de componentes organizada por categorias, permitindo inserir diretamente no SketchUp.
 
-<figure><img src="../../../../.gitbook/assets/sketchup/interface/1-interface-assets.png" alt="Biblioteca"><figcaption><p>Biblioteca de Componentes</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/sketchup/main-interface/1-interface-assets.png" alt="Biblioteca"><figcaption><p>Biblioteca de Componentes</p></figcaption></figure>
 
 ### Funcionalidades
 
@@ -68,7 +68,7 @@ Os componentes são sincronizados automaticamente da StageHex Cloud conforme seu
 
 Sistema de configuração de cores padrão para identificação visual dos componentes no modelo.
 
-<figure><img src="../../../../.gitbook/assets/sketchup/interface/2-interface-colors-system.png" alt="Color System"><figcaption><p>Sistema de Cores</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/sketchup/main-interface/2-interface-colors-system.png" alt="Color System"><figcaption><p>Sistema de Cores</p></figcaption></figure>
 
 ### Funcionalidades
 
@@ -104,7 +104,7 @@ Use cores distintas para diferentes tipos de truss ou fabricantes para facilitar
 
 Gerenciador de Camadas para controle total de visibilidade e organização dos componentes StageHex.
 
-<figure><img src="../../../../.gitbook/assets/sketchup/interface/3-interface-layers.png" alt="Layers"><figcaption><p>Gerenciador de Camadas</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/sketchup/main-interface/3-interface-layers.png" alt="Layers"><figcaption><p>Gerenciador de Camadas</p></figcaption></figure>
 
 ### Ações Rápidas
 
@@ -168,274 +168,4 @@ Na barra Main Tools, dois botões permitem alternar rapidamente:
 
 {% hint style="info" %}
 Use o modo Simplificado durante a modelagem para melhor performance, e Detalhado para visualização final.
-{% endhint %}
-
-***
-
-## Exportar MVR
-
-Exportação no formato MVR (My Virtual Rig) para softwares de visualização como grandMA3 e Depence.
-
-<figure><img src="../../../../.gitbook/assets/sketchup/interface/4-interface-export-mvr.png" alt="Exportar MVR"><figcaption><p>Exportação MVR</p></figcaption></figure>
-
-### Tabela de Fixtures
-
-A tabela exibe todos os fixtures do projeto:
-
-<table>
-<thead>
-<tr>
-<th width="180">Coluna</th>
-<th>Descrição</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Checkbox</strong></td>
-<td>Seleciona o tipo de fixture para exportação</td>
-</tr>
-<tr>
-<td><strong>Tipo de Fixture</strong></td>
-<td>Nome do fixture (Manufacturer + Model)</td>
-</tr>
-<tr>
-<td><strong>Intervalo de ID</strong></td>
-<td>Range de Fixture IDs (ex: 1-10)</td>
-</tr>
-<tr>
-<td><strong>Quantidade</strong></td>
-<td>Quantidade de fixtures deste tipo</td>
-</tr>
-</tbody>
-</table>
-
-### Opções de Exportação
-
-<table>
-<thead>
-<tr>
-<th width="180">Opção</th>
-<th>Descrição</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Apenas seleção</strong></td>
-<td>Exporta somente fixtures selecionados no SketchUp</td>
-</tr>
-<tr>
-<td><strong>Incluir geometrias</strong></td>
-<td>Adiciona elementos 3D (palco, trusses, cenário) ao MVR</td>
-</tr>
-</tbody>
-</table>
-
-### Destino de Saída
-
-<table>
-<thead>
-<tr>
-<th width="180">Opção</th>
-<th>Descrição</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>SH_Project.mvr</strong></td>
-<td>Usa o nome do projeto do SketchUp</td>
-</tr>
-<tr>
-<td><strong>SH_MVR.mvr</strong></td>
-<td>Sobrescreve arquivo padrão na biblioteca GMA3</td>
-</tr>
-<tr>
-<td><strong>Personalizado</strong></td>
-<td>Escolhe arquivo de destino manualmente</td>
-</tr>
-</tbody>
-</table>
-
-{% hint style="info" %}
-Se o grandMA3 estiver instalado, o StageHex detecta automaticamente a biblioteca e exporta diretamente para a pasta MVR.
-{% endhint %}
-
-### Formato MVR
-
-O **MVR** (My Virtual Rig) é um formato padrão da indústria que inclui:
-
-- **Fixtures** com posicionamento 3D e patch DMX
-- **Arquivos GDTF** embutidos para cada tipo de fixture
-- **Geometrias 3D** do palco e cenário (opcional)
-
-{% hint style="info" %}
-O MVR é compatível com Depence, Capture, Vectorworks, grandMA3 e outros softwares.
-{% endhint %}
-
-***
-
-## Exportar grandMA2
-
-Exportação para o ecossistema grandMA2/MA3D.
-
-<figure><img src="../../../../.gitbook/assets/sketchup/interface/5-interface-export-ma2.png" alt="Exportar GMA2"><figcaption><p>Exportação grandMA2</p></figcaption></figure>
-
-### Tabela de Fixtures
-
-A tabela exibe todos os fixtures do projeto:
-
-<table>
-<thead>
-<tr>
-<th width="150">Coluna</th>
-<th>Descrição</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Checkbox</strong></td>
-<td>Seleciona o tipo de fixture para exportação</td>
-</tr>
-<tr>
-<td><strong>Tipo de Fixture</strong></td>
-<td>Nome do fixture (Manufacturer + Model)</td>
-</tr>
-<tr>
-<td><strong>Intervalo de ID</strong></td>
-<td>Range de Fixture IDs (ex: 1-10)</td>
-</tr>
-<tr>
-<td><strong>Patch</strong></td>
-<td>Inclui no macro de patch</td>
-</tr>
-<tr>
-<td><strong>Group</strong></td>
-<td>Inclui no macro de grupos</td>
-</tr>
-<tr>
-<td><strong>Tipo</strong></td>
-<td>Fixture Type ID para o grandMA2</td>
-</tr>
-<tr>
-<td><strong>Qtd</strong></td>
-<td>Quantidade de fixtures deste tipo</td>
-</tr>
-</tbody>
-</table>
-
-### Opções de Exportação
-
-<table>
-<thead>
-<tr>
-<th width="180">Opção</th>
-<th>Descrição</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Apenas seleção</strong></td>
-<td>Exporta somente fixtures selecionados no SketchUp</td>
-</tr>
-<tr>
-<td><strong>Ignorar colisões</strong></td>
-<td>Exporta mesmo com endereços DMX duplicados</td>
-</tr>
-<tr>
-<td><strong>Camadas: Tipos</strong></td>
-<td>Cria camadas baseadas no tipo de fixture</td>
-</tr>
-<tr>
-<td><strong>Camadas: Tags</strong></td>
-<td>Cria camadas baseadas nas Tags do SketchUp</td>
-</tr>
-</tbody>
-</table>
-
-### Destino de Saída
-
-<table>
-<thead>
-<tr>
-<th width="180">Opção</th>
-<th>Descrição</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>SH_MA2</strong></td>
-<td>Sobrescreve arquivos padrão na pasta do grandMA2</td>
-</tr>
-<tr>
-<td><strong>SH_Project</strong></td>
-<td>Usa o nome do projeto do SketchUp</td>
-</tr>
-<tr>
-<td><strong>Personalizado</strong></td>
-<td>Escolhe pasta de destino manualmente</td>
-</tr>
-</tbody>
-</table>
-
-{% hint style="info" %}
-Se o grandMA2 estiver instalado, o StageHex detecta automaticamente e exporta diretamente para as pastas corretas.
-{% endhint %}
-
-### Arquivos Exportados
-
-O StageHex gera os seguintes arquivos:
-
-<table>
-<thead>
-<tr>
-<th width="250">Arquivo</th>
-<th>Descrição</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>SH_MA2-LAYER-N.xml</strong></td>
-<td>Arquivos de camada com fixtures (um por camada)</td>
-</tr>
-<tr>
-<td><strong>SH_MA2.xml</strong></td>
-<td>Macro com comandos de importação</td>
-</tr>
-</tbody>
-</table>
-
-### Cena MA3D
-
-O StageHex exporta a geometria 3D do projeto para o visualizador MA 3D.
-
-<table>
-<thead>
-<tr>
-<th width="180">Opção</th>
-<th>Descrição</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Sobrescrever</strong></td>
-<td>Sobrescreve o arquivo SH_SCENE existente</td>
-</tr>
-<tr>
-<td><strong>Exportar 3D</strong></td>
-<td>Exporta apenas a cena 3D</td>
-</tr>
-<tr>
-<td><strong>Exportar Tudo</strong></td>
-<td>Exporta fixtures + cena 3D em sequência</td>
-</tr>
-</tbody>
-</table>
-
-O arquivo `SH_SCENE.gmamedia` contém:
-
-- Geometria 3D do palco
-- Estruturas de truss
-- Elementos de cenário
-
-{% hint style="warning" %}
-A exportação de Cena MA3D requer o **MA 3D** instalado no computador.
 {% endhint %}
