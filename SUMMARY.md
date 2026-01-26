@@ -15,7 +15,6 @@
 
 * [Plugin SketchUp](visao-geral/plugin-sketchup/README.md)
   * [Toolbar](visao-geral/plugin-sketchup/toolbar.md)
-  * [Exportar e Relatórios](visao-geral/plugin-sketchup/exportacao.md)
   * [Ferramentas](visao-geral/plugin-sketchup/ferramentas/README.md)
     * [Main Tools](visao-geral/plugin-sketchup/ferramentas/main-tools/README.md)
       * [Gerenciador de Interface](visao-geral/plugin-sketchup/ferramentas/main-tools/interface.md)
@@ -47,6 +46,7 @@
       * [Patch Automático](visao-geral/plugin-sketchup/ferramentas/lighting-tools/patch-automatico.md)
       * [Trocar Modo](visao-geral/plugin-sketchup/ferramentas/lighting-tools/trocar-modo.md)
     * [Video/Audio Tools](visao-geral/plugin-sketchup/ferramentas/video-audio-tools.md)
+  * [Exportar e Relatórios](visao-geral/plugin-sketchup/exportacao.md)
 * [grandMA2](visao-geral/ma2/README.md)
   * [Exportando para grandMA2](visao-geral/ma2/exportando.md)
   * [Importando no grandMA2](visao-geral/ma2/importando-ma2.md)
