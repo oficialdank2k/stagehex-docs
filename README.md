@@ -1,3 +1,7 @@
+---
+icon: book-open
+---
+
 # Stagehex Documentação
 
 StageHex é um plugin profissional para SketchUp voltado ao design técnico de shows, iluminação e estruturas de palco.\

@@ -1,3 +1,7 @@
+---
+icon: puzzle-piece
+---
+
 # Plugin SketchUp
 
 O plugin StageHex adiciona um menu de configurações no SketchUp para gerenciar barras de ferramentas, autenticação e informações do plugin.
@@ -48,24 +52,10 @@ O diálogo mostra:
 
 ### O que é atualizado?
 
-<table>
-<thead>
-<tr>
-<th>Tipo de Atualização</th>
-<th>Descrição</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Metadados</strong></td>
-<td>Informações técnicas como peso, potência, fabricante, etc.</td>
-</tr>
-<tr>
-<td><strong>Geometria</strong></td>
-<td>Modelo 3D do asset (quando indicado no diálogo)</td>
-</tr>
-</tbody>
-</table>
+| Tipo de Atualização | Descrição                                                  |
+| ------------------- | ---------------------------------------------------------- |
+| **Metadados**       | Informações técnicas como peso, potência, fabricante, etc. |
+| **Geometria**       | Modelo 3D do asset (quando indicado no diálogo)            |
 
 {% hint style="info" %}
 As atualizações de geometria substituem o modelo 3D do asset, mas mantêm o posicionamento e rotação no projeto.
@@ -95,40 +85,14 @@ No SketchUp, acesse:
 
 ## Opções do Menu
 
-<table>
-<thead>
-<tr>
-<th>Opção</th>
-<th>Descrição</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Mostrar Todas as Barras</strong></td>
-<td>Exibe todas as barras de ferramentas da StageHex</td>
-</tr>
-<tr>
-<td><strong>Ocultar Todas as Barras</strong></td>
-<td>Oculta todas as barras de ferramentas da StageHex</td>
-</tr>
-<tr>
-<td><strong>Resetar Posições das Barras</strong></td>
-<td>Restaura as barras de ferramentas para suas posições padrão</td>
-</tr>
-<tr>
-<td><strong>Autenticar</strong></td>
-<td>Permite autenticação manual caso a comunicação com a StageHex Cloud falhe</td>
-</tr>
-<tr>
-<td><strong>Status do Plugin</strong></td>
-<td>Exibe informações sobre o estado atual do plugin e da licença</td>
-</tr>
-<tr>
-<td><strong>Sobre StageHex</strong></td>
-<td>Mostra informações sobre a versão do plugin</td>
-</tr>
-</tbody>
-</table>
+| Opção                           | Descrição                                                                 |
+| ------------------------------- | ------------------------------------------------------------------------- |
+| **Mostrar Todas as Barras**     | Exibe todas as barras de ferramentas da StageHex                          |
+| **Ocultar Todas as Barras**     | Oculta todas as barras de ferramentas da StageHex                         |
+| **Resetar Posições das Barras** | Restaura as barras de ferramentas para suas posições padrão               |
+| **Autenticar**                  | Permite autenticação manual caso a comunicação com a StageHex Cloud falhe |
+| **Status do Plugin**            | Exibe informações sobre o estado atual do plugin e da licença             |
+| **Sobre StageHex**              | Mostra informações sobre a versão do plugin                               |
 
 ***
 
@@ -156,44 +120,15 @@ Exibe informações detalhadas sobre o estado atual do plugin e da licença.
 
 ### Informações Exibidas
 
-<table>
-<thead>
-<tr>
-<th>Campo</th>
-<th>Descrição</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Versão</strong></td>
-<td>Versão atual do plugin instalado</td>
-</tr>
-<tr>
-<td><strong>Modo</strong></td>
-<td>Estado da conexão (Online / Sem Internet)</td>
-</tr>
-<tr>
-<td><strong>Usuário</strong></td>
-<td>Nome do usuário autenticado</td>
-</tr>
-<tr>
-<td><strong>Email</strong></td>
-<td>Email da conta StageHex</td>
-</tr>
-<tr>
-<td><strong>Plano</strong></td>
-<td>Plano de assinatura ativo (Trial, Basic ou Pro)</td>
-</tr>
-<tr>
-<td><strong>Expira em</strong></td>
-<td>Data de expiração da licença</td>
-</tr>
-<tr>
-<td><strong>Última validação</strong></td>
-<td>Data e hora da última verificação de licença</td>
-</tr>
-</tbody>
-</table>
+| Campo                | Descrição                                       |
+| -------------------- | ----------------------------------------------- |
+| **Versão**           | Versão atual do plugin instalado                |
+| **Modo**             | Estado da conexão (Online / Sem Internet)       |
+| **Usuário**          | Nome do usuário autenticado                     |
+| **Email**            | Email da conta StageHex                         |
+| **Plano**            | Plano de assinatura ativo (Trial, Basic ou Pro) |
+| **Expira em**        | Data de expiração da licença                    |
+| **Última validação** | Data e hora da última verificação de licença    |
 
 {% hint style="info" %}
 O ícone de aviso indica que o plugin está operando em modo offline. Neste modo, algumas funcionalidades podem estar limitadas até que a conexão seja restabelecida.
