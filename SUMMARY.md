@@ -63,3 +63,17 @@
 * [Formatos de Importação](suporta-importar-exportar/formatos-de-importacao.md)
 * [Formatos de Exportação](suporta-importar-exportar/formatos-de-exportacao.md)
 
+## Release Notes
+
+* [StageHex Cloud](releases/stage-hex-cloud/README.md)
+  * [v1.0.23](releases/stage-hex-cloud/v1.0.23.md)
+  * [v1.0.22](releases/stage-hex-cloud/v1.0.22.md)
+  * [v1.0.21](releases/stage-hex-cloud/v1.0.21.md)
+  * [v1.0.20](releases/stage-hex-cloud/v1.0.20.md)
+  * [v1.0.19](releases/stage-hex-cloud/v1.0.19.md)
+  * [v1.0.18](releases/stage-hex-cloud/v1.0.18.md)
+  * [v1.0.16](releases/stage-hex-cloud/v1.0.16.md)
+  * [v1.0.15](releases/stage-hex-cloud/v1.0.15.md)
+  * [v1.0.14](releases/stage-hex-cloud/v1.0.14.md)
+  * [v1.0.13](releases/stage-hex-cloud/v1.0.13.md)
+
