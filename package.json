@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "optimize:gifs": "node scripts/optimize-gifs.js",
+    "images": "node scripts/route-images.cjs",
     "prepare": "git config core.hooksPath .githooks"
   },
   "repository": {
