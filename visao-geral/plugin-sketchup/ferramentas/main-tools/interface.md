@@ -23,7 +23,7 @@ O Gerenciador de Interface é o painel principal da StageHex, acessível atravé
 <td>Configuração de cores padrão dos componentes</td>
 </tr>
 <tr>
-<td><strong>Layers</strong></td>
+<td><strong>Camadas</strong></td>
 <td>Gerenciamento de visibilidade e organização</td>
 </tr>
 </tbody>
@@ -100,72 +100,10 @@ Use cores distintas para diferentes tipos de truss ou fabricantes para facilitar
 
 ***
 
-## Layers
+## Camadas
 
-Gerenciador de Camadas para controle total de visibilidade e organização dos componentes StageHex.
+Aba de controle de visibilidade, modo de visualização e cores dos componentes StageHex. Esta mesma interface também está disponível em acesso rápido pelo botão **10** da Toolbar Main Tools.
 
-<figure><img src="../../../../.gitbook/assets/sketchup/main-interface/3-interface-layers.png" alt="Layers"><figcaption><p>Gerenciador de Camadas</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/sketchup/main-interface/3-interface-layers.png" alt="Camadas"><figcaption><p>Aba Camadas no Gerenciador de Interface</p></figcaption></figure>
 
-### Ações Rápidas
-
-<table>
-<thead>
-<tr>
-<th>Botão</th>
-<th>Função</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Mostrar Tudo</strong></td>
-<td>Exibe todos os componentes</td>
-</tr>
-<tr>
-<td><strong>Ocultar Tudo</strong></td>
-<td>Oculta todos os componentes</td>
-</tr>
-<tr>
-<td><strong>Detalhar Tudo</strong></td>
-<td>Exibe geometria detalhada</td>
-</tr>
-<tr>
-<td><strong>Simplificar Tudo</strong></td>
-<td>Exibe geometria simplificada</td>
-</tr>
-<tr>
-<td><strong>Por Material</strong></td>
-<td>Cores originais dos materiais</td>
-</tr>
-<tr>
-<td><strong>Por Cor</strong></td>
-<td>Cores do Color System</td>
-</tr>
-</tbody>
-</table>
-
-### Lista de Componentes
-
-A lista exibe todos os componentes StageHex organizados hierarquicamente:
-
-**Colunas:**
-* **Visibilidade** - Ícones para mostrar/ocultar, detalhar/simplificar, cor/material
-* **Componente / Definição** - Nome do componente
-* **Instâncias** - Quantidade no modelo
-* **Tipo** - Classificação (Platform, Corner, Line Array, Panel, etc.)
-* **Classe** - Categoria principal
-
-**Controles por Linha:**
-* Olho - Mostrar/Ocultar
-* Detalhes - Detalhar/Simplificar
-* Cor - Por Material/Por Cor
-
-### Quick Actions na Toolbar
-
-Na barra Main Tools, dois botões permitem alternar rapidamente:
-
-* **Controle de Visualização** (botão 11) - Alterna Detalhado ↔ Simplificado para todos
-* **Controle de Cores** (botão 12) - Alterna Material ↔ Cor para todos
-
-{% hint style="info" %}
-Use o modo Simplificado durante a modelagem para melhor performance, e Detalhado para visualização final.
-{% endhint %}
+Veja a documentação completa em [Gerenciador de Camadas](gerenciador-de-camadas.md).

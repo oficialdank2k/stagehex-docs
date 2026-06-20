@@ -120,7 +120,7 @@ Plano completo para produção profissional avançada, incluindo rigging, automa
 <td align="center">✔</td>
 </tr>
 <tr>
-<td>Gerenciador de etiquetas</td>
+<td>Gerenciador de camadas</td>
 <td align="center">✔</td>
 </tr>
 <tr>

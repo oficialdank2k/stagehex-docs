@@ -85,7 +85,7 @@ Plano gratuito para avaliação completa das ferramentas no SketchUp, sem export
 <td align="center">✔</td>
 </tr>
 <tr>
-<td>Gerenciador de etiquetas</td>
+<td>Gerenciador de camadas</td>
 <td align="center">✔</td>
 </tr>
 <tr>

@@ -116,7 +116,7 @@ Plano voltado para produção real, com exportação MA2 e biblioteca cloud esse
 <td align="center">✖</td>
 </tr>
 <tr>
-<td>Gerenciador de etiquetas</td>
+<td>Gerenciador de camadas</td>
 <td align="center">✖</td>
 </tr>
 <tr>
