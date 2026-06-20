@@ -64,8 +64,8 @@ Ferramentas essenciais para interface, manipulação de objetos, organização e
 </tr>
 <tr>
 <td align="center">10</td>
-<td><strong>Gerenciador de Etiquetas</strong></td>
-<td>Gerencia tags/camadas dos objetos</td>
+<td><strong>Gerenciador de Camadas</strong></td>
+<td>Gerencia camadas e visibilidade dos componentes</td>
 </tr>
 <tr>
 <td align="center">11</td>
@@ -135,9 +135,9 @@ Permite definir um eixo de trabalho personalizado para operações de transforma
 
 Move os objetos selecionados para a origem do modelo (0, 0, 0).
 
-### Gerenciador de Etiquetas
+### Gerenciador de Camadas
 
-Abre o gerenciador de tags/camadas para organização dos objetos.
+Abre o gerenciador de camadas para controle de visibilidade, modo de visualização e cores dos componentes StageHex. Veja mais em [Gerenciador de Camadas](gerenciador-de-camadas.md).
 
 ### Controle de Visualização
 

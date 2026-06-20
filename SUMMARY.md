@@ -26,6 +26,7 @@
       * [Explodir Grupos](visao-geral/plugin-sketchup/ferramentas/main-tools/explodir-grupos.md)
       * [Definir Eixo](visao-geral/plugin-sketchup/ferramentas/main-tools/definir-eixo.md)
       * [Mover para Origem](visao-geral/plugin-sketchup/ferramentas/main-tools/mover-para-origem.md)
+      * [Gerenciador de Camadas](visao-geral/plugin-sketchup/ferramentas/main-tools/gerenciador-de-camadas.md)
     * [Event Tools](visao-geral/plugin-sketchup/ferramentas/event-tools/README.md)
       * [Inserir Plataforma](visao-geral/plugin-sketchup/ferramentas/event-tools/inserir-plataforma.md)
       * [Colocar Plataforma](visao-geral/plugin-sketchup/ferramentas/event-tools/colocar-plataforma.md)
