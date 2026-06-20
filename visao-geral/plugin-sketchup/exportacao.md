@@ -562,3 +562,101 @@ No topo são exibidas informações consolidadas:
 {% hint style="info" %}
 Arraste as linhas para reordenar a lista. Selecione células para editar valores específicos antes de exportar.
 {% endhint %}
+
+***
+
+## Relatório de LED
+
+Gera relatórios detalhados de todos os painéis de LED do projeto, agrupados por modelo e grupo (PDP, Lateral, etc.).
+
+<figure><img src="../../.gitbook/assets/sketchup/export-interface/export-report-led.png" alt="Relatório de LED"><figcaption><p>Relatório de LED</p></figcaption></figure>
+
+### Resumo
+
+No topo são exibidas informações consolidadas dos grupos selecionados:
+
+* **Selecionados** - Quantidade de grupos selecionados / total
+* **Painéis** - Quantidade total de painéis
+* **Área** - Área total em m²
+* **Power** - Potência total em Watts
+* **Peso** - Peso total em kg
+
+### Tabela de Grupos de LED
+
+Cada linha representa um grupo de painéis (mesmo modelo + mesmo nome de grupo).
+
+<table>
+<thead>
+<tr>
+<th width="150">Coluna</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Exp.</strong></td>
+<td>Checkbox para incluir na exportação</td>
+</tr>
+<tr>
+<td><strong>Imagem</strong></td>
+<td>Preview do painel</td>
+</tr>
+<tr>
+<td><strong>Cor</strong></td>
+<td>Cor configurada no Color System</td>
+</tr>
+<tr>
+<td><strong>Modelo</strong></td>
+<td>Modelo do painel</td>
+</tr>
+<tr>
+<td><strong>Grupo</strong></td>
+<td>Nome do agrupamento (ex: PDP, Lateral)</td>
+</tr>
+<tr>
+<td><strong>Painéis</strong></td>
+<td>Quantidade de painéis no grupo</td>
+</tr>
+<tr>
+<td><strong>Área Total (m²)</strong></td>
+<td>Área total do grupo em metros quadrados</td>
+</tr>
+<tr>
+<td><strong>Power Total (W)</strong></td>
+<td>Potência total do grupo em Watts</td>
+</tr>
+<tr>
+<td><strong>Peso Total (kg)</strong></td>
+<td>Peso total do grupo em kg</td>
+</tr>
+</tbody>
+</table>
+
+### Exportação
+
+<table>
+<thead>
+<tr>
+<th width="150">Botão</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Atualizar</strong></td>
+<td>Recarrega os dados do projeto</td>
+</tr>
+<tr>
+<td><strong>PDF</strong></td>
+<td>Exporta relatório em formato PDF</td>
+</tr>
+<tr>
+<td><strong>Excel</strong></td>
+<td>Exporta relatório em formato Excel (.xlsx)</td>
+</tr>
+</tbody>
+</table>
+
+{% hint style="info" %}
+Arraste as linhas para reordenar a lista. Selecione células para editar valores específicos antes de exportar.
+{% endhint %}
