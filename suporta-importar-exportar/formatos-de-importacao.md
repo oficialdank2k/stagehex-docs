@@ -8,9 +8,19 @@ A StageHex permite a importação de diferentes formatos 3D e dados técnicos, c
 
 ***
 
-## Formatos Suportados
+## Importações StageHex
 
-<table><thead><tr><th>Formato</th><th width="150">Extensão</th><th width="150" align="center">Status</th><th>Observações</th></tr></thead><tbody><tr><td>Imagem</td><td>*.png / *.jpg / *.jpeg / *.bmp</td><td align="center">✔</td><td>Geração de geometria a partir da imagem, com remoção automática de background</td></tr><tr><td>SVG (Scalable Vector Graphics)</td><td>*.svg</td><td align="center">✔</td><td>Importação direta de geometria vetorial como Componente StageHex</td></tr><tr><td>SketchUp Native</td><td>*.skp</td><td align="center">✔</td><td>Modelos SketchUp são convertidos em Componentes StageHex</td></tr><tr><td>3D Studio</td><td>*.3ds</td><td align="center">✔</td><td>Geometria importada é convertida em componentes para uso técnico</td></tr><tr><td>Wavefront OBJ</td><td>*.obj</td><td align="center">✔</td><td>Importação de geometria estática com materiais</td></tr><tr><td>Collada</td><td>*.dae</td><td align="center">✔</td><td>Formato intermediário para interoperabilidade entre softwares 3D</td></tr><tr><td>glTF / GLB</td><td>*.gltf / *.glb</td><td align="center">✔</td><td>Importação otimizada para visualização em tempo real</td></tr></tbody></table>
+Módulos de importação próprios da StageHex, acessíveis pelo menu **Extensões → StageHex → Importar**.
+
+<table><thead><tr><th>Formato</th><th width="150">Extensão</th><th width="150" align="center">Status</th><th>Observações</th></tr></thead><tbody><tr><td>Imagem</td><td>*.png / *.jpg / *.jpeg / *.bmp</td><td align="center">✔</td><td>Geração de geometria a partir da imagem, com remoção automática de background</td></tr><tr><td>SVG (Scalable Vector Graphics)</td><td>*.svg</td><td align="center">✔</td><td>Importação direta de geometria vetorial</td></tr></tbody></table>
+
+***
+
+## Importações Nativas do SketchUp
+
+Formatos 3D importados através do importador nativo do SketchUp (menu **Arquivo → Importar...**). Após a importação, organize a geometria em Componentes para aplicar metadados StageHex.
+
+<table><thead><tr><th>Formato</th><th width="150">Extensão</th><th width="150" align="center">Status</th><th>Observações</th></tr></thead><tbody><tr><td>SketchUp Native</td><td>*.skp</td><td align="center">✔</td><td>Modelos SketchUp são convertidos em Componentes StageHex</td></tr><tr><td>3D Studio</td><td>*.3ds</td><td align="center">✔</td><td>Geometria importada é convertida em componentes para uso técnico</td></tr><tr><td>Wavefront OBJ</td><td>*.obj</td><td align="center">✔</td><td>Importação de geometria estática com materiais</td></tr><tr><td>Collada</td><td>*.dae</td><td align="center">✔</td><td>Formato intermediário para interoperabilidade entre softwares 3D</td></tr><tr><td>glTF / GLB</td><td>*.gltf / *.glb</td><td align="center">✔</td><td>Importação otimizada para visualização em tempo real</td></tr></tbody></table>
 
 ***
 
