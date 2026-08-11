@@ -17,6 +17,7 @@ const ASSETS = path.join(ROOT, '.gitbook', 'assets');
 const SPECIAL = {
   '4-interface-export-mvr.png': path.join(ASSETS, 'sketchup', 'export-interface', 'export-mvr.png'),
   '5-interface-export-ma2.png': path.join(ASSETS, 'sketchup', 'export-interface', 'export-ma2.png'),
+  'context-import.png': path.join(ASSETS, 'sketchup', 'import-interface', 'context-import.png'),
 };
 
 function findInAssets(name) {
@@ -43,6 +44,7 @@ const orphaned = [];
 for (const name of files) {
   const src = path.join(SRC, name);
   if (SPECIAL[name]) {
+    fs.mkdirSync(path.dirname(SPECIAL[name]), { recursive: true });
     fs.renameSync(src, SPECIAL[name]);
     renamed.push(`${name} -> ${path.relative(ROOT, SPECIAL[name])}`);
     continue;

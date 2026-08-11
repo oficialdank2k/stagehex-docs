@@ -47,6 +47,7 @@
       * [Patch Automático](visao-geral/plugin-sketchup/ferramentas/lighting-tools/patch-automatico.md)
       * [Trocar Modo](visao-geral/plugin-sketchup/ferramentas/lighting-tools/trocar-modo.md)
     * [Video/Audio Tools](visao-geral/plugin-sketchup/ferramentas/video-audio-tools.md)
+  * [Importar](visao-geral/plugin-sketchup/importacao.md)
   * [Exportar e Relatórios](visao-geral/plugin-sketchup/exportacao.md)
 * [grandMA2](visao-geral/ma2/README.md)
   * [Exportando para grandMA2](visao-geral/ma2/exportando.md)
