@@ -26,7 +26,7 @@ Formatos 3D importados através do importador nativo do SketchUp (menu **Arquivo
 
 ## Resumo por Plano
 
-<table><thead><tr><th>Formato</th><th width="150" align="center">StageHex Trial</th><th width="150" align="center">StageHex Basic</th><th width="150" align="center">StageHex Pro</th></tr></thead><tbody><tr><td>Imagem</td><td align="center">✖</td><td align="center">✔</td><td align="center">✔</td></tr><tr><td>SVG</td><td align="center">✖</td><td align="center">✔</td><td align="center">✔</td></tr><tr><td>MA2 XML</td><td align="center">✖</td><td align="center">✔</td><td align="center">✔</td></tr><tr><td>MVR</td><td align="center">✖</td><td align="center">✖</td><td align="center">✔</td></tr></tbody></table>
+<table><thead><tr><th>Formato</th><th width="150" align="center">StageHex Trial</th><th width="150" align="center">StageHex Basic</th><th width="150" align="center">StageHex Pro</th></tr></thead><tbody><tr><td>Imagem</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td></tr><tr><td>SVG</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td></tr><tr><td>MA2 XML</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td></tr><tr><td>MVR</td><td align="center">✖</td><td align="center">✖</td><td align="center">✔</td></tr></tbody></table>
 
 ***
 
