@@ -62,15 +62,15 @@ Plano completo para produção profissional avançada, incluindo rigging, automa
 <tbody>
 <tr>
 <td>Truss</td>
-<td align="center">Em breve</td>
+<td align="center">✔</td>
 </tr>
 <tr>
 <td>Equipamentos</td>
-<td align="center">Em breve</td>
+<td align="center">✔</td>
 </tr>
 <tr>
 <td>Plataforma</td>
-<td align="center">Em breve</td>
+<td align="center">✔</td>
 </tr>
 <tr>
 <td>Escadas</td>
